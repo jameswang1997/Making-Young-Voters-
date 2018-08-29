@@ -1,0 +1,582 @@
+schoolnumber,Official School Name,Principal Email,Administrator/School Email,Social Studies Educator Email,URL School Address,School Type Desc,School Designation Desc
+10303,Alamance-Burlington Middle/Early College High School,bonnie_roane@abss.k12.nc.us,Linda_Barefoot@abss.k12.nc.us,John_Trammell@abss.k12.nc.us,http://amc.abss.k12.nc.us,Regular School,Public
+10311,Career Technical Education Center,darrell_thomas@abss.k12.nc.us,gina_bader@abss.k12.nc.us,,https://www.abss.k12.nc.us/Domain/65,Vocational Education,Public
+10324,Eastern Alamance High,diane_hill@abss.k12.nc.us,Conley_Balltzglier@abss.k12.nc.us,Karen_Clements@abss.k12.nc.us,http://eah.abss.k12.nc.us,Regular School,Public
+10348,Graham High,charlotte_holmes@abss.k12.nc.us,Teresa_Brannock@abss.k12.nc.us,Becky_Johannesen@abss.k12.nc.us,http://grh.abss.k12.nc.us/,Regular School,Public
+10360,Hugh M Cummings High,emmet_alexander@abss.k12.nc.us,Ana_Alanis@abss.k12.nc.us,Aeron_Sizemore@abss.k12.nc.us,http://hch.abss.k12.nc.us/,Regular School,Public
+10388,Southern High,teresa_faucette@abss.k12.nc.us,Lisa_Blevins@abss.k12.nc.us,Paul_Bishop@abss.k12.nc.us,http://sah.abss.k12.nc.us/,Regular School,Public
+10396,Walter M Williams High,stephanie_hunt@abss.k12.nc.us,Joan_thorpe@abss.k12.nc.us,Susan_Hayes@abss.k12.nc.us,http://wwh.abss.k12.nc.us/,Regular School,Public
+10400,Western Alamance High,todd_stephan@abss.k12.nc.us,Deborah_Drewis@abss.k12.nc.us,Mark_Byers@abss.k12.nc.us,http://wah.abss.k12.nc.us/,Regular School,Public
+01B000,River Mill Academy,jdishmon@rivermill-academy.org,sjacobs@rivermill-academy.org,http://www.rivermill-academy.org/staff/high_school/tammy_powell/contact_me/,http://www.rivermill-academy.org,Regular School,Charter
+01C000,Clover Garden,Walterfinnigan@cgsnc.org,info@cgsnc.org,michaeljohnson@cgsnc.org,http://www.cgsnc.org,Regular School,Charter
+01D000,The Hawbridge School,kmoles@hawbridgeschool.org,ndunevant@hawbridgeschool.org,cluther@hawbridgeschool.org,http://www.thehawbridgeschool.org,Regular School,Charter
+20302,Alexander Central High,drhoney@alexander.k12.nc.us,janderson@alexander.k12.nc.us,jdavis@alexander.k12.nc.us,http://www.alexander.k12.nc.us/alexandercentral,Regular School,Public
+20303,Alexander Early College,jevans@alexander.k12.nc.us,janderson@alexander.k12.nc.us,,http://www.alexander.k12.nc.us/aec,Regular School,Public
+30304,Alleghany High,scottcarter@alleghany.k12.nc.us,http://ahs.alleghany.k12.nc.us/apps/email/index.jsp?e=738173837377737773917383727374197383737574177383740973097375739773977383738773897375740174237273739572797281727374017379727374157411&n=Debbie%20Weaver,http://ahs.alleghany.k12.nc.us/apps/email/index.jsp?e=741173757409737573897273740974157381742373097375739773977383738773897375740174237273739572797281727374017379727374157411&n=Sarah%20Rudy,http://ahs.alleghany.k12.nc.us,Regular School,Public
+40304,Anson County Early College High School,decker.carri@anson.k12.nc.us,,,http://www.ansonschools.org,Regular School,Public
+40306,Anson High School,stinson.chris@anson.k12.nc.us,WILLIAMS.MELISSA@Anson.K12.NC.US,,http://ahs.ansonschools.org/home.aspx,Regular School,Public
+50302,Ashe County High,jason.krider@ashe.k12.nc.us,alex.miller@ashe.k12.nc.us,nathan.colvard@ashe.k12.nc.us,http://www.ashe.k12.nc.us/achs/web/home/index.htm,Regular School,Public
+60302,Avery County High School,toddgriffin@averyschools.net, cherifrye@averyschools.net,derrickcalloway@averyschools.net,http://www.averyschools.net/schools/ahs.aspx,Regular School,Public
+06A000,Grandfather Academy,MWGriffin@childrenshopealliance.org,https://www.childrenshopealliance.org/contact-us/,,64 Grandfather Home Dr,Regular School,Charter
+06B000,Marjorie Williams Academy,caustin@williamsacademy.org,cparsons@williamsacademy.org,,http://www.williamsacademy.org/,Regular School,Charter
+70311,Beaufort County Early College High School,epake@beaufort.k12.nc.us,,,-,Regular School,Public
+70330,Northside High,cclark@beaufort.k12.nc.us,asearcy@beaufort.k12.nc.us,cbollow@beaufort.k12.nc.us,http://beaufort.nhs.schoolfusion.us/,Regular School,Public
+70339,Southside High,mcoleman@beaufort.k12.nc.us,scarter@beaufort.k12.nc.us,rcathey@beaufort.k12.nc.us,http://beaufort.shs.schoolfusion.us/,Regular School,Public
+70342,Washington High,mswinson@beaufort.k12.nc.us,wdixon@beaufort.k12.nc.us,aautry@beaufort.k12.nc.us,http://beaufort.whs.schoolfusion.us/,Regular School,Public
+07A000,Washington Montessori Public Charter School,austin.smigel@wmpcs.org,diane.stoddard@wmpcs.org,crystal.kimbrel@wmpcs.org,http://wmpcs.org,Regular School,Charter
+80311,Bertie Early College High,wcofield@bertie.k12.nc.us,wdempseyjacobs@bertie.k12.nc.us,cgoss@bertie.k12.nc.us,http://www.bec.bertie.k12.nc.us,Regular School,Public
+80312,Bertie High,tanderson@bertie.k12.nc.us,,,http://www.bhs.bertie.k12.nc.us,Regular School,Public
+90330,East Bladen High,jmwray@bladen.k12.nc.us,,tsparks@bladen.k12.nc,http://www.bladen.k12.nc.us,Regular School,Public
+90368,West Bladen High,pjhester@bladen.k12.nc.us,cakrieger@bladen.k12.nc.us,wbmccleney@bladen.k12.nc.us,www.bladen.k12.nc.us,Regular School,Public
+09A000,Paul R Brown Leadership Academy,rtmckoy@prbla.org,contact@paulrbrownleadership.com,,http://www.paulrbrownleadership.com/,Regular School,Charter
+100307,Brunswick County Early College High School, skac@bcswan.net,chall@bcswan.net,sosborne@bcswan.net,http://www.bcswan.net/ECHS,Regular School,Public
+100326,North Brunswick High,paul_price@bcswan.net,kbrown@bcswan.net,jkelly@bcswan.net,http://www.co.brunswick.k12.nc.us/education/school/school.php?sectionid=10,Regular School,Public
+100334,South Brunswick High,mhodges@bcswan.net,pcannon@bcswan.net,albrown@bcswan.net,http://www.bcswan.net/SBHS,Regular School,Public
+100348,West Brunswick High,rbenton@bcswan.net,mburgess@bcswan.net,jhayes@bcswan.net,http://www.bcswan.net/WBHS,Regular School,Public
+110304,A C Reynolds High,doris.sellers@bcsemail.org,,,https://acrhs.buncombeschools.org/,Regular School,Public
+110322,Buncombe County Early College High School,donna.lanahan@bcsemail.org,melissa.boone@bcsemail.org,cynthia.little@bcsemail.org,https://bcec.buncombeschools.org/,Regular School,Public
+110336,Charles D Owen High,margaret.turner@bcsemail.org,arlene.morgan@bcsemail.org,Nathaniel.Lyda@bcsemail.org,https://cdohs.buncombeschools.org/,Regular School,Public
+110340,Clyde A Erwin High,gregory.bailey@bcsemail.org,katherine.golliher@bcsemail.org,frank.tellez@bcsemail.org,https://caehs.buncombeschools.org/,Regular School,Public
+110352,Enka High,tonya.robinson@bcsemail.org,nancy.robinson@bcsemail.org,jeffrey.frady@bcsemail.org,https://ehs.buncombeschools.org/,Regular School,Public
+110380,North Buncombe High,samantha.sircey@bcsemail.org,,toby.anderson@bcsemail.org,https://nbhs.buncombeschools.org/,Regular School,Public
+110416,T C Roberson High,bonnie.johnston@bcsemail.org,lindsay.rice@bcsemail.org,benjamin.boyd@bcsemail.org,https://tcrhs.buncombeschools.org/,Regular School,Public
+110500,Martin L Nesbitt Jr Discovery Academy,nathan.allison@bcsemail.org,kimberly.yurkovich@bcsemail.org,paul.irvin@bcsemail.org,https://mlnda.buncombeschools.org/,Regular School,Public
+111302,Asheville High,Jesse.dingle@acsgmail.net,lee.tobin@ashevillecityschools.net,lizzie.rogers@ashevillecityschools.net,http://www.ashevillecityschools.net/pages/Asheville_High,Regular School,Public
+111700,School of Inquiry and Life Sciences at Asheville,david.robinson@acsgmail.net,carmen.corsi@acsgmail.net,chad.anderson@acsgmail.net,http://www.ashevillecityschools.net/pages/SILSA,Regular School,Public
+11C000,Invest Collegiate (Buncombe),jennifertownley@icimagine.org,sabrinamueller@icimagine.org,abbeygelineau@icimagine.org,http://www.icimagine.org,Regular School,Charter
+11D000,The Franklin School of Innovation,mvruwink@theFSI.us,mvruwink@thefsi.us,mmoorehubbard@thefsi.us,http://www.franklinschoolofinnovation.org,Regular School,Charter
+120310,Burke Middle College High School,kamos@burke.k12.nc.us,rshehan@burke.k12.nc.us,davidlee@burke.k12.nc.us,http://www.burke.k12.nc.us/schools/bmc/,Regular School,Public
+120314,East Burke High,smace@burke.k12.nc.us,lfortenberry@burke.k12.nc.us,dandersen @burke.k12.nc.us,http://www.burke.k12.nc.us/ebhs/,Regular School,Public
+120318,Freedom High,fsimmons@burke.k12.nc.us,aacuff@burke.k12.nc.us,bjbaker@burke.k12.nc.us,http://www.burke.k12.nc.us/fhs/,Regular School,Public
+120346,Jimmy C Draughn High School,kauton@burke.k12.nc.us,jgarland@burke.k12.nc.us,yjensenj@burke.k12.nc.us,http://www.burke.k12.nc.us/dhs/,Regular School,Public
+120370,Robert L. Patton High School,wbarber@burke.k12.nc.us,lpgreene@burke.k12.nc.us,jfuller@burke.k12.nc.us,http://www.burke.k12.nc.us/phs/,Regular School,Public
+130307,Cox Mill High School,Todd.Smith@cabarrus.k12.nc.us,Janet.Davis@cabarrus.k12.nc.us,Crystal.brewington@cabarrus.k12.nc.us,http://www.cabarrus.k12.nc.us/coxmillhs,Regular School,Public
+130310,Central Cabarrus High,andrew.crook@cabarrus.k12.nc.us,jennifer.arbury@cabarrus.k12.nc.us,catherine.averell@cabarrus.k12.nc.us,http://www.cabarrus.k12.nc.us/centralcabarrus,Regular School,Public
+130314,Concord High,Adam.Auerbach@cabarrus.k12.nc.us,chs@cabarrus.k12.nc.us,george.allen@cabarrus.k12.nc.us,http://www.cabarrus.k12.nc.us/concordhs,Regular School,Public
+130316,Jay M Robinson High,Raymond.Aldredge@Cabarrus.k12.nc.us,amanda.macon@cabarrus.k12.nc.us,angela.bates@cabarrus.k12.nc.us,http://www.cabarrus.k12.nc.us/robinson,Regular School,Public
+130324,Mount Pleasant High,Jon.Lachance@cabarrus.k12.nc.us,lawrence.sullivan@cabarrus.k12.nc.us,david.smith2@cabarrus.k12.nc.us,http://www.cabarrus.k12.nc.us/mountpleasanths,Regular School,Public
+130326,Northwest Cabarrus High,Christopher.Myers@cabarrus.k12.nc.us,delan.peebles@cabarrus.k12.nc.us,philip.collett@cabarrus.k12.nc.us,http://www.cabarrus.k12.nc.us/nwcabarrushs,Regular School,Public
+130332,Hickory Ridge High,Shaun.Poole@Cabarrus.K12.nc.us,megan.becker@cabarrus.k12.nc.us,nathaniel.bargeloh@cabarrus.k12.nc.us,http://www.cabarrus.k12.nc.us/hickoryridgehs,Regular School,Public
+130349,Cabarrus Early College of Technology,Vance.Fishback@cabarrus.k12.nc.us,,,-,Regular School,Public
+130350,Cabarrus-Kannapolis Early College,Carla.Black@cabarrus.k12.nc.us,https://www.cabarrus.k12.nc.us/domain/2331,Sean.Lyons@cabarrus.k12.nc.us,http://www.cabarrus.k12.nc.us/earlycollege,Regular School,Public
+132304,A. L. Brown High School,todd.parker@kcs.k12.nc.us,cynthia.mills@kcs.k12.nc.us,sean.pitchford@kcs.k12.nc.us,http://albhs.kcs.k12.nc.us/cms/One.aspx,Regular School,Public
+13A000,Carolina International School,davidkukielski@ciscomets.com,,,http://www.carolinainternationalschool.org,Regular School,Charter
+13B000,Cabarrus Charter Academy,dhampton@cabarruscharter.org, info@cabarruscharter.org,amccree@cabarruscharter.org,http://cabarruscharter.org,Regular School,Charter
+140305,Caldwell Career Center Middle College,bsuddreth@caldwellschools.com,lclark@caldwellschools.com,jrobinson@caldwellschools.com,http://cc.caldwellschools.com/,Regular School,Public
+140309,Caldwell Early College High School,chagaman@caldwellschools.com,cchavers@caldwellschools.com,derbrown@caldwellschools.com,http://sc.caldwellschools.com/education/school/school.php?sectionid=2311,Regular School,Public
+140348,Hibriten High,dcolwell@caldwellschools.com,mburgess@caldwellschools.com,jonbryant@caldwellschools.com,http://hhs.caldwellschools.com/,Regular School,Public
+140386,South Caldwell High,chsmith@caldwellschools.com,mschaffer@caldwellschools.com,btomberlin@caldwellschools.com,http://schs.caldwellschools.com/,Regular School,Public
+140390,West Caldwell High,apuhl@caldwellschools.com,janthony@caldwellschools.com,mtaladay@caldwellschools.com,http://wchs.caldwellschools.com/,Regular School,Public
+150304,Camden County High School,bberry@camden.k12.nc.us,,,http://www.camden.k12.nc.us/cchs/index.html,Regular School,Public
+150350,Camden Early College High School ,adavis@camden.k12.nc.us,lkarns@camden.k12.nc.us,mcosta@camden.k12.nc.us,http://ccsnc.org/,Regular School,Public
+160313,East Carteret High School,joe.poletti@carteretk12.org,,,http://www.carteretcountyschools.org/echs,Regular School,Public
+160314,Croatan High School,kay.zimarino@carteretk12.org,mary.keel@carteretk12.org,kelly.hoff@carteretk12.org,http://www.carteretcountyschools.org/chs,Regular School,Public
+160344,West Carteret High School,carolyn.heller@carteretk12.org,benjamin.downing@carteretk12.org,https://wchs-ccs-nc.schoolloop.com/misc/cms_contact?d=x&id=1315636491694&return_url=1513047860680,we,Regular School,Public
+170316,Bartlett Yancey High School,joanna.gwynn@caswell.k12.nc.us,,,http://bartlettyancey.nc.cch.schoolinsites.com/,Regular School,Public
+180308,Bandys High,angela_williams@catawbaschools.net,rebecca_little@catawbaschools.net,corey_dubea@catawbaschools.net,http://www.catawbaschools.net/schools/Bandys/default.aspx,Regular School,Public
+180320,Bunker Hill High,Jeff_Isenhour@catawbaschools.net,william_farnsworth@catawbaschools.net,Todd_Setzer@catawbaschools.net,http://www.catawbaschools.net/schools/BunkerHill/default.aspx,Regular School,Public
+180325,Challenger Early College High School,Heather_Benfield@catawbaschools.net,daustin@cvcc.edu,Seth_Carswell@catawbaschools.net,http://www.catawbaschools.net/schools/Challenger/default.aspx,Regular School,Public
+180340,Fred T Foard High,stephen_westmoreland@catawbaschools.net,deborah_pitts@catawbaschools.net,Vernon_Beaver@catawbaschools.net,http://www.catawbaschools.net/schools/Foard/default.aspx,Regular School,Public
+180348,Maiden High,Robert_Bliss@catawbaschools.net,Melissa_Gemes@catawbaschools.net,Robbie_Abernethy@catawbaschools.net,http://www.catawbaschools.net/schools/MaidenHigh/default.aspx,Regular School,Public
+180376,Saint Stephens High,scottie_houston@catawbaschools.net,chris_johnson@catawbaschools.net,roger_mueller@catawbaschools.net,http://www.catawbaschools.net/schools/StStephensHigh/default.aspx,Regular School,Public
+181318,Hickory Career & Arts Magnet High School,tuttlere@hickoryschools.net,https://hcamatcollegepark.com/contact,,http://hcamatcollegepark.com/,Regular School,Public
+181322,Hickory High,caterka@hickoryschools.net,penningtonja@hickoryschools.net,lankfordhe@hickoryschools.net,http://www.hickoryschools.net/schools/Hickory/Default.aspx,Regular School,Public
+182316,Newton-Conover High,chris.penley@n-ccs.org,paige.smith@n-ccs.org,http://nhs.newton-conover.org/apps/email/index.jsp?e=606660766062607459466056605260626056608260545982607459446052605260845946607660826060&n=John%20Echerd,http://nhs.newton-conover.org,Regular School,Public
+182700,The Discovery High School at Newton-Conover,john.robinson@n-ccs.org,http://dhs.newton-conover.org/apps/contact/,joel.barham@n-ccs.org_,http://dhs.newton-conover.org,Regular School,Public
+190316,Chatham Central High,mstensla@chatham.k12.nc.us, ccox@chatham.k12.nc.us,keanes@chatham.k12.nc.us,https://www.chatham.k12.nc.us/Domain/10,Regular School,Public
+190336,Jordan Matthews High,tcrayton@chatham.k12.nc.us,areyes@chatham.k12.nc.us,,https://www.chatham.k12.nc.us/Domain/13,Regular School,Public
+190342,Northwood High,jbartholomew@chatham.k12.nc.us,jgiles@chatham.k12.nc.us,mcox@chatham.k12.nc.us,https://www.chatham.k12.nc.us/Domain/18,Regular School,Public
+19A000,Chatham Charter,jeldridge@chathamcharter.org,,,http://www.chathamcharter.org/,Regular School,Charter
+19B000,Woods Charter,cbryan@woodscharter.org,anelson@woodscharter.org,anelson@woodscharter.org,http://www.woodscharter.org,Regular School,Charter
+200308,Andrews High,lisa.fletcher@cherokee.k12.nc.us,AHS@cherokee.k12.nc.us,,http://www.cherokee.k12.nc.us/ahs/,Regular School,Public
+200314,Hiwassee Dam High,daniel.mcnabb@cherokee.k12.nc.us,HDHS@cherokee.k12.nc.us,,http://www.cherokee.k12.nc.us/hdsh/,Regular School,Public
+200328,Murphy High,thomas.graham@cherokee.k12.nc.us,MHS@cherokee.k12.nc.us,,http://www.cherokee.k12.nc.us/mhs/,Regular School,Public
+209204,Cherokee High School,dfoerst@cherokeecentral.gaggle.net,kathy.penland@ccs-nc.org,http://chs.ccs-nc.org/apps/email/index.jsp?e=6066605660846084606460526048594660666048608260906064608459826052605260845944607460525946607660826060&n=Jessica+Jarvis,http://cherokeecentral.sharpschool.com/our_schools/high_school/,Regular School,Federal
+210312,John A Holmes High,swood@ecps.k12.nc.us,spatrick@ecps.k12.nc.us,vbrinson@ecps.k12.nc.us,http://jah.edenton-chowan.net,Regular School,Public
+220310,Hayesville High,mnoe@hayesvillehs.org,,,http://www.hayesvillehs.org,Regular School,Public
+230312,Burns High School,mmorehead@clevelandcountyschools.org,aenichols@clevelandcountyschools.org,tcentofanti@clevelandcountyschools.org,http://www.clevelandcountyschools.org,Regular School,Public
+230322,Cleveland Early College High School,tlhopper@clevelandcountyschools.org,lwmitchell@clevelandcountyschools.org,tpeeler@clevelandcountyschools.org,http://www.clevelandechs.org/,Regular School,Public
+230324,Crest High School,hdrobinson@clevelandcountyschools.org,nweddins@clevelandcountyschools.org,dgreene@clevelandcountyschools.org,http://www.clevelandcountyschools.org,Regular School,Public
+230350,Kings Mountain High,jyrikard@clevelandcountyschools.org,gsgreene@clevelandcountyschools.org,ddalexander@clevelandcountyschools.org,http://www.clevelandcountyschools.org,Regular School,Public
+230361,Shelby High,drallen@clevelandcountyschools.org,mfuller@clevelandcountyschools.org,jdhawn@clevelandcountyschools.org,http://www.clevelandcountyschools.org,Regular School,Public
+240334,East Columbus High,jeremiahjohnson@columbus.k12.nc.us,cthreadgill@columbus.k12.nc.us,,http://www.columbus.k12.nc.us,Regular School,Public
+240371,South Columbus High,athompson@columbus.k12.nc.us,msimmons@columbus.k12.nc.us,mbanks@columbus.k12.nc.us,http://www.columbus.k12.nc.us,Regular School,Public
+240373,Columbus Career and College Academy Southeastern Campus,nhobbs@columbus.k12.nc.us,,,http://www.columbus.k12.nc.us,Regular School,Public
+240380,West Columbus High,jeffgreene@columbus.k12.nc.us,,sbritt@columbus.k12.nc.us,http://www.columbus.k12.nc.us,Regular School,Public
+241316,Whiteville High,jsealey@whiteville.k12.nc.us,lhall@whiteville.k12.nc.us,khutchison@whiteville.k12.nc.us,http://whs.whiteville.k12.nc.us/,Regular School,Public
+24B000,Thomas Academy,geraldine.bradshaw@thomasacademync.org,tom.simmons@thomasacademync.org,,http://www.thomasacademync.org,Regular School,Charter
+250314,Craven Early College High,todd.bradley@cravenk12.org,kimberli.quinn@cravenk12.org,angela.kitchin@cravenk12.org,http://www.cravenearlycollege.net/,Regular School,Public
+250321,Early College EAST High School,allan.quinn@cravenk12.org,lucy.jackson@cravenk12.org,alaina.casebolt@cravenk12.org,http://www.craven.k12.nc.us/ECE/,Regular School,Public
+250340,Havelock High,jeffrey.murphy@cravenk12.org,rebecca.lansche@cravenk12.org,whitney.dobbs@cravenk12.org,http://havelockhigh.weebly.com/,Regular School,Public
+250356,New Bern High,jerry.simmons@cravenk12.org,roneca.wallace@cravenk12.org,jeremy.williams@cravenk12.org,http://www.craven.k12.nc.us/NBH/,Regular School,Public
+250372,West Craven High,tabari.wallace@cravenk12.org,montrell.lee@cravenk12.org,kyle.warmack@cravenk12.org,http://teacherweb.craven.k12.nc.us/WCH/,Regular School,Public
+260318,Jack Britt High School,ScottPope@ccs.k12.nc.us,aprildoublin@ccs.k12.nc.us,amandabaker@ccs.k12.nc.us,http://www.jbhs.ccs.k12.nc.us/,Regular School,Public
+260322,Douglas Byrd High,ZolettaTaylor@ccs.k12.nc.us,ashlynlewis@ccs.k12.nc.us,ritadavis@ccs.k12.nc.us,http://www.dbhs.ccs.k12.nc.us/,Regular School,Public
+260325,Cape Fear High,vernonspruill@ccs.k12.nc.us,http://www.cfhs.ccs.k12.nc.us/,JenniferDavis@ccs.k12.nc.us,http://www.cfhs.ccs.k12.nc.us/,Regular School,Public
+260347,Cumberland International Early College High School,mariaford@ccs.k12.nc.us,carlettagraves@ccs.k12.nc.us,elizabethdilworth@ccs.k12.nc.us,http://www.ciechs.ccs.k12.nc.us/,Regular School,Public
+260354,Cross Creek Early College,PatsyPatrick@ccs.k12.nc.us,SharonViger@ccs.k12.nc.us,KennethHuffman@ccs.k12.nc.us,http://www.ccechs.ccs.k12.nc.us/,Regular School,Public
+260357,Grays Creek High School,lisagstewart@ccs.k12.nc.us,shellyharris@ccs.k12.nc.us,jonathananderson@ccs.k12.nc.us,http://www.gchs.ccs.k12.nc.us,Regular School,Public
+260359,E E Smith High,MelodyChalmers@ccs.k12.nc.us,michellebates@ccs.k12.nc.us,christophermiller@ccs.k12.nc.us,http://www.eeshs.ccs.k12.nc.us/,Regular School,Public
+260388,Massey Hill Classical High,pamelaadams@ccs.k12.nc.us,vdeane@ccs.k12.nc.us,brittaniemcneil@ccs.k12.nc.us,http://www.mhchs.ccs.k12.nc.us,Regular School,Public
+260408,Pine Forest High,davidculbreth@ccs.k12.nc.us,FatimaMyers@ccs.k12.nc.us,JarrodBritt@ccs.k12.nc.us,http://www.pfhs.ccs.k12.nc.us/,Regular School,Public
+260411,Reid Ross Classical High,johnemcmillan@ccs.k12.nc.us,cynthiaguidry@ccs.k12.nc.us,tatumweaver@ccs.k12.nc.us,http://www.rrcs.ccs.k12.nc.us/,Regular School,Public
+260424,Seventy-First High,myronwilliams@ccs.k12.nc.us,dianefrazier@ccs.k12.nc.us,lillianbaker@ccs.k12.nc.us,http://www.sfhs.ccs.k12.nc.us/index.htm,Regular School,Public
+260427,South View High,TonjaiRobertson@ccs.k12.nc.us,nancyluna@ccs.k12.nc.us,jesseautry@ccs.k12.nc.us,http://www.svhs.ccs.k12.nc.us/index.htm,Regular School,Public
+260446,Terry Sanford High,ThomasHatch@ccs.k12.nc.us,jenniferwalker@ccs.k12.nc.us,stevenbarbour@ccs.k12.nc.us,http://www.tshs.ccs.k12.nc.us/,Regular School,Public
+260455,Westover High,vernonlowery@ccs.k12.nc.us,staceywilliams@ccs.k12.nc.us,teresahutchison@ccs.k12.nc.us,http://www.wohs.ccs.k12.nc.us/default.htm,Regular School,Public
+260700,Cumberland Polytechnic High,dkrumanocker@ccs.k12.nc.us,zuleriavillegas@ccs.k12.nc.us,debralundy@ccs.k12.nc.us,http://cphs.ccs.k12.nc.us/,Regular School,Public
+270306,Currituck County High,rdowdy@currituck.k12.nc.us,sjarvis@currituck.k12.nc.us,jblume@currituck.k12.nc.us,http://www.currituck.k12.nc.us,Regular School,Public
+270311,The JP Knapp ECH (i)School,sbasnight@currituck.k12.nc.us,bcrowther@currituck.k12.nc.us,cbowyer@currituck.k12.nc.us,http://www.currituck.k12.nc.us,Regular School,Public
+280304,Cape Hatteras Secondary School,rooksbe@daretolearn.org,cutlerka@daretolearn.org,durhamke@daretolearn.org,http://chs.daretolearn.org,Regular School,Public
+280316,Manteo High School,lucianojo@daretolearn.org,danielsmi@daretolearn.org,cumpstonem@daretolearn.org,http://mhs.daretolearn.org,Regular School,Public
+280330,First Flight High School,albertti@daretolearn.org,http://ffh.daretolearn.org/staff_directory/administration/,http://ffh.daretolearn.org/staff_directory/social_studies/,http://ffh.daretolearn.org,Regular School,Public
+290308,Central Davidson High,vfeezor@davidson.k12.nc.us,khudson@davidson.k12.nc.us,tlineberry@davidson.k12.nc.us,http://www.davidson.k12.nc.us/central/cdsh1.htm,Regular School,Public
+290315,Davidson Early College,mglover@davidson.k12.nc.us,https://echs.davidson.k12.nc.us/apps/contact/,https://echs.davidson.k12.nc.us/apps/email/index.jsp?e=608460606082605660566074605659525982605460486090606460546084607660745946606859525954594660746052594660886084&n=Shane+Greene,http://www.davidson.k12.nc.us/education/school/school.php?sectionid=12,Regular School,Public
+290324,East Davidson High,johndibonaventura@davidson.k12.nc.us,https://edhs.davidson.k12.nc.us/apps/email/index.jsp?e=6070605060826076605260685982605460486090606460546084607660745946606859525954594660746052594660886084&n=Leigh%20Ann%20Brock,stephaniecampbell@davidson.k12.nc.us,http://www.davidson.k12.nc.us/east/index.htm,Regular School,Public
+290336,Ledford Senior High,cjohnston@davidson.k12.nc.us,ccarr@davidson.k12.nc.us,samuelberrier@davidson.k12.nc.us,http://www.davidson.k12.nc.us/ledford/ledford.htm,Regular School,Public
+290348,North Davidson High,akiger@davidson.k12.nc.us,kaseysneed@davidson.k12.nc.us,bramsey@davidson.k12.nc.us,http://www.davidson.k12.nc.us/ndhs/index.htm,Regular School,Public
+290349,Oak Grove High School,sdalton@davidson.k12.nc.us,https://oghs.davidson.k12.nc.us/apps/email/index.jsp?e=83918409838784178387841384158313838583798421839583858415840784058277839982838285827784058383827784198415&n=Gregory%20Peters,https://oghs.davidson.k12.nc.us/apps/email/index.jsp?e=83978387842183878413839383798413841782898313838583798421839583858415840784058277839982838285827784058383827784198415&n=Jeffery+Everhart,http://oghs.davidson.k12.nc.us/,Regular School,Public
+290365,South Davidson High,breeder@davidson.k12.nc.us,https://sdhs.davidson.k12.nc.us/apps/email/index.jsp?e=84138391837984018401839584038407841383878313838583798421839583858415840784058277839982838285827784058383827784198415&n=Rhonda%20Gallimore,https://sdhs.davidson.k12.nc.us/apps/email/index.jsp?e=83838393837983858387840184018395840583918417840784058313838583798421839583858415840784058277839982838285827784058383827784198415&n=Chadwick%20Ellington,http://www.davidson.k12.nc.us/south/south2.htm,Regular School,Public
+290388,West Davidson High,bhunt@davidson.k12.nc.us,https://wdhs.davidson.k12.nc.us/apps/email/index.jsp?e=83938387837984178393838784138393840784078421838784138313838583798421839583858415840784058277839982838285827784058383827784198415&n=Heather%20Hoover,https://wdhs.davidson.k12.nc.us/apps/email/index.jsp?e=83858399840183958405839984078415839983958313838583798421839583858415840784058277839982838285827784058383827784198415&n=David%20Klinkoski,http://www.davidson.k12.nc.us/west/Home.htm,Regular School,Public
+290389,Yadkin Valley Regional Career Academy,jbrown@davidson.k12.nc.us,ekinney@davidson.k12.nc.us,walterharrell@davidson.k12.nc.us,http://www.valleycareeracademy.com,Regular School,Public
+291336,Lexington Senior High School,mcurry@lexcs.org,jharvey@lexcs.org,mpeoples@lexcs.org,http://www.lexcs.org/,Regular School,Public
+292324,Thomasville High School,kinardl@tcs.k12.nc.us,http://ths.tcs.k12.nc.us/apps/email/index.jsp?e=841383938407838583878415839783138417838384158277839982838285827784058383827784198415&n=Jamille%20Rhodes,http://ths.tcs.k12.nc.us/apps/email/index.jsp?e=840384078407841383878413828583138417838384158277839982838285827784058383827784198415&n=Robert%20Moore,http://ths.tcs.k12.nc.us/,Regular School,Public
+300312,Davie County High School,nicholsond@davie.k12.nc.us,gueerrerok@davie.k12.nc.us,clarks@davie.k12.nc.us,http://www.davie.k12.nc.us/schools/davie-high/,Regular School,Public
+300314,Davie County Early College High,absherd@davie.k12.nc.us,catlettm@davie.k12.nc.us,griffeya@davie.k12.nc.us,http://www.davie.k12.nc.us/schools/early-college/,Regular School,Public
+310338,Duplin Early College High School,sriley-gurganus@duplinschools.net,,,http://www.duplinschools.net/dechs/,Regular School,Public
+310344,East Duplin High,sballard@duplinschools.net,DBAILEY@DUPLINSCHOOLS.NET,MHUGHES@DUPLINSCHOOLS.NET,http://www.duplinschools.net/schools/edh,Regular School,Public
+310352,James Kenan High,mholton@duplinschools.net,CHBASS@DUPLINSCHOOLS.NET,CCLARK@DUPLINSCHOOLS.NET,http://www.duplinschools.net/schools/jkh,Regular School,Public
+310364,North Duplin Jr Sr High,bahrens@duplinschools.net,dfoster@duplinschools.net,pmatthews@duplinschools.net,http://www.duplinschools/schools.net/ndjs,Regular School,Public
+310392,Wallace-Rose Hill High,mguthrie@duplinschools.net,gabrown@duplinschools.net,tknowles@duplinschools.net,http://www.duplinschools.net/schools/wrh,Regular School,Public
+320309,Josephine Dobbs Clement Early College High School,gloria.woods-weeks @dpsnc.net,,,http://echs.dpsnc.net/,Regular School,Public
+320312,Charles E Jordan Sr High School,susan.taylor2@dpsnc.net,james.boyce-jr@dpsnc.net,brent.belvin@dpsnc.net,http://www.jordan.dpsnc.net/,Regular School,Public
+320314,The School for Creative Studies,renee.price@dpsnc.net,neill.ferguson@dpsnc.net,sara.chase@dpsnc.net,http://www.scs.dpsnc.net,Regular School,Public
+320317,City of Medicine Academy,lorna.tobias@dpsnc.net,andrea.schirmer@dpsnc.net,tracey.barrett@dpsnc.net,http://cma.dpsnc.net/,Regular School,Public
+320323,Durham School of the Arts,david.hawks@dpsnc.net,,,http://www.dsa.dpsnc.net,Regular School,Public
+320325,Hillside High,william.logan@dpsnc.net,,,http://www.hillside.dpsnc.net/,Regular School,Public
+320353,Middle College HS @ DTCC,marcia.navarro@dpsnc.net,michele.solomon-brown@dpsnc.net,joseph.parrish@dpsnc.net,http://mchs.dpsnc.net/,Regular School,Public
+320356,Northern High,danny.gilfort@dpsnc.net,Lindsey.Faraone@dpsnc.net,joye.cordell@dpsnc.net,http://www.northern.dpsnc.net/,Regular School,Public
+320365,Riverside High,tonya.williams@dpsnc.net,chaundra.clay@dpsnc.net,ahmani.owens@dpsnc.net,http://www.riverside.dpsnc.net/,Regular School,Public
+320368,Southern School of Energy and Sustainability,jerome.leathers@dpsnc.net,,,http://www.Southern.dpsnc.net/,Regular School,Public
+320701,Hillside New Tech High School,tounya.wright@dpsnc.net,,,http://www.newtech.dpsnc.net/,Regular School,Public
+32L000,Voyager Academy,jlucas@voyageracademy.net,khawkins@voyageracademy.net,sgatlin@voyageracademy.net,http://www.voyageracademy.net/,Regular School,Charter
+32N000,Research Triangle High School,egrunden@rthighschool.org,kmudd@rthighschool.org,adrake@rthighschool.org,http://www.researchtrianglehighschool.org,Regular School,Charter
+330326,Edgecombe Early College High,msmith@ecps.us,http://eechs.ecps.us/apps/email/index.jsp?e=8387842383958401839983958405841583138387838384098415827784198415&n=Etheleen%20Wilkins,http://eechs.ecps.us/apps/email/index.jsp?e=839783918419842783138387838384098415827784198415&n=James%20Guy,http://www.ecps.us/middlecol/,Regular School,Public
+330328,North Edgecombe High,dcannon@ecps.us,http://nehs.ecps.us/apps/email/index.jsp?e=837983818419841383918387841383138387838384098415827784198415&n=Amy+Burger,http://nehs.ecps.us/apps/email/index.jsp?e=84038397840783938405841584178407840583138387838384098415827784198415&n=Mitchell%20Johnston,http://www.ecps.us/nehs/,Regular School,Public
+330350,SouthWest Edgecombe High,kcutler@ecps.us,http://www.swe.ecps.us/,http://swehs.ecps.us/apps/email/index.jsp?e=83878403838383998405839583918393841783138387838384098415827784198415&n=Eric+McKnight,http://www.swe.ecps.us/,Regular School,Public
+330358,Tarboro High,charris@ecps.us,http://ths.ecps.us/apps/contact/,http://ths.ecps.us/apps/email/index.jsp?e=841383918387840584178413842783138387838384098415827784198415&n=Russell%20Gentry,http://www.ecps.us/tarborohigh/,Regular School,Public
+33A000,North East Carolina Preparatory,etheridgewj@necprepschool.com ,PleasantJJ@necprepschool.com,MOLESKYAM@NECPREPSCHOOL.COM,http://www.necprepschool.com/,Regular School,Charter
+340311,Atkins Academic & Technology High ,jwchilders@wsfcs.k12.nc.us,KMDouthart@wsfcs.k12.nc.us,NRBrewer@wsfcs.k12.nc.us,http://www.wsfcs.k12.nc.us/Domain/3056,Regular School,Public
+340330,Carver High,cfmontague@wsfcs.k12.nc.us,BHBURKE@wsfcs.k12.nc.us,RAMARTIN@wsfcs.k12.nc.us,https://www.wsfcs.k12.nc.us/Domain/227,Regular School,Public
+340332,Career Center,canichols@wsfcs.k12.nc.us,acanders@wsfcs.k12.nc.us,LHUMPHREY@wsfcs.k12.nc.us,https://www.wsfcs.k12.nc.us/Domain/104,Vocational Education,Public
+340362,Early College of Forsyth Count,fcook@wsfcs.k12.nc.us,LYNAKAWATASE@wsfcs.k12.nc.us,SDSMITH@wsfcs.k12.nc.us,https://www.wsfcs.k12.nc.us/Domain/329,Regular School,Public
+340364,East Forsyth High,rlbass@wsfcs.k12.nc.us,LMBROWN@wsfcs.k12.nc.us,AWALLISON@wsfcs.k12.nc.us,https://www.wsfcs.k12.nc.us/Domain/348,Regular School,Public
+340382,Robert B Glenn High,bcraddoc@wsfcs.k12.nc.us,KCLEAK@wsfcs.k12.nc.us,SEFREEMANCHURCH@wsfcs.k12.nc.us,https://www.wsfcs.k12.nc.us/Domain/547,Regular School,Public
+340446,Middle College of Forsyth County,fcook@wsfcs.k12.nc.us,rlgiddings@wsfcs.k12.nc.us,cbholbrook@wsfcs.k12.nc.us,https://www.wsfcs.k12.nc.us/Domain/526,Regular School,Public
+340454,Mount Tabor High,eweiss@wsfcs.k12.nc.us,SKEE@wsfcs.k12.nc.us,CARTHUR@wsfcs.k12.nc.us,https://www.wsfcs.k12.nc.us/Domain/763,Regular School,Public
+340460,North Forsyth High,mawise@wsfcs.k12.nc.us,MDMICKEY@wsfcs.k12.nc.us,WRBELL@wsfcs.k12.nc.us,https://www.wsfcs.k12.nc.us/Domain/904,Regular School,Public
+340486,Parkland High,shardy@wsfcs.k12.nc.us,KLBRITTO@wsfcs.k12.nc.us,WBROWN@wsfcs.k12.nc.us,https://www.wsfcs.k12.nc.us/Domain/1012,Regular School,Public
+340488,J. F. Kennedy High School,klgabriel@wsfcs.k12.nc.us,KCASHBY@wsfcs.k12.nc.us,TMGARY@wsfcs.k12.nc.us,https://www.wsfcs.k12.nc.us/Domain/2172,Regular School,Public
+340495,Ronald Wilson Reagan High,broyal@wsfcs.k12.nc.us,MRHARROLD@wsfcs.k12.nc.us,DJBALSER@wsfcs.k12.nc.us,https://www.wsfcs.k12.nc.us/Domain/1153,Regular School,Public
+340496,R J Reynolds High,laalexander@wsfcs.k12.nc.us,KMARCHIE@wsfcs.k12.nc.us,JTCAMPBELL@wsfcs.k12.nc.us,https://www.wsfcs.k12.nc.us/Domain/1315,Regular School,Public
+340542,Walkertown High School,mlwalker@wsfcs.k12.nc.us,STGLASGOW@wsfcs.k12.nc.us,JMBROOKS@wsfcs.k12.nc.us,http://www.wsfcs.k12.nc.us/Domain/6575,Regular School,Public
+340556,West Forsyth High,camcaninch@wsfcs.k12.nc.us,CCHALE@wsfcs.k12.nc.us,ACALFORD@wsfcs.k12.nc.us,https://www.wsfcs.k12.nc.us/Domain/1441,Regular School,Public
+340568,Winston-Salem Preparatory Acad,crhunt@wsfcs.k12.nc.us,CPERRY-JONES@wsfcs.k12.nc.us,CDADAMS@wsfcs.k12.nc.us,https://www.wsfcs.k12.nc.us/Domain/1586,Regular School,Public
+34B000,Quality Education Academy,qualityeducation@qeschools.org,qualityeducation@qeschools.org,,http://www.qeschools.org/,Regular School,Charter
+34D000,Carter G Woodson School,rhopkins@cgwsoc.org,dgrcia@cgwsoc.org,awesley@cgwsoc.org,http://cartergwoodsonschool.org/,Regular School,Charter
+34H000,NC Leadership Charter Academy,rfaenza@thencla.org,slebrecht@thencla.org,mquinones@thencla.org,http://www.thencla.org,Regular School,Charter
+350308,Bunn High,lavernedaniels@fcschools.net,danielwright@fcschools.net,,https://www.fcschools.net/bunnhighschool,Regular School,Public
+350317,Franklin County Early College,ericashoulders@fcschools.net,allisonbrown@fcschools.net,michaelgrothmann@fcschools.net,https://www.fcschools.net/franklincountyearlycollege,Regular School,Public
+350321,Franklinton High,russellholloman@fcschools.net,,,https://www.fcschools.net/franklintonhighschool,Regular School,Public
+350336,Louisburg High,glenndansky@fcschools.net,nicoleburgess@fcschools.org,ianalexander@fcschools.net  ,https://www.fcschools.net/louisburghighschool,Regular School,Public
+360310,Ashbrook High School,rewilson@gaston.k12.nc.us,lssmith@gaston.k12.nc.us, bjreschly@gaston.k12.nc.us,http://www.gaston.k12.nc.us/ashbrook,Regular School,Public
+360336,Bessemer City High School,jmmoore@gaston.k12.nc.us,, rdstuck@gaston.k12.nc.us,http://www.gaston.k12.nc.us/bchigh,Regular School,Public
+360337,Gaston Early College High School,sswyont@gaston.k12.nc.us,kfnorwood@gaston.k12.nc.us, mshibberts@gaston.k12.nc.us,http://www.gaston.k12.nc.us/gastonearlycollege,Regular School,Public
+360360,Cherryville High School,kmdoran@gaston.k12.nc.us,cbdalton@gaston.k12.nc.us,lranthony@gaston.k12.nc.us,http://www.gaston.k12.nc.us/cherryvillehigh,Regular School,Public
+360378,Stuart W Cramer High School,aadevine@gaston.k12.nc.us,lsberry@gaston.k12.nc.us,jwputnam@gaston.k12.nc.us,http://www.gaston.k12.nc.us/stuartwcramer,Regular School,Public
+360390,East Gaston High School,jbreep@gaston.k12.nc.us,, msbarrier@gaston.k12.nc.us,http://www.gaston.k12.nc.us/egaston,Regular School,Public
+360396,Forestview High School,cchouser@gaston.k12.nc.us,,rccombs@gaston.k12.nc.us,http://www.gaston.k12.nc.us/forestview,Regular School,Public
+360418,Highland School of Technology,dbmclean@gaston.k12.nc.us,rhhilderbrand@gaston.k12.nc.us,wdboyles@gaston.k12.nc.us,http://gaston.k12.nc.us/highland,Regular School,Public
+360428,Hunter Huss High School,bboone@gaston.k12.nc.us,dmbiggerstaff@gaston.k12.nc.us,loganfreeman@gaston.k12.nc.us,http://www.gaston.k12.nc.us/huss,Regular School,Public
+360470,North Gaston High School,gvconner@gaston.k12.nc.us,fsrouthier@gaston.k12.nc.us,mewintsch@gaston.k12.nc.us,http://www.gaston.k12.nc.us/ngaston,Regular School,Public
+360494,South Point High School,gmford@gaston.k12.nc.us,shgee@gaston.k12.nc.us,jahodge@gaston.k12.nc.us,http://www.gaston.k12.nc.us/spoint,Regular School,Public
+36B000,Piedmont Community Charter School,jpurdee@pccharter.org,lynda.champion@pccharter.org,gary.shaw@pccharter.org,http://www.pccharter.org,Regular School,Charter
+36C000,Mountain Island Charter School ,jmatthews@micharter.org,,KNemec@micharter.org ,http://www.micharter.org,Regular School,Charter
+370312,Gates County Senior High,hayesjw@gatescountyschools.net,waltonlr@gatescountyschools.net,crofutam@gatescountyschools.net,http://www.cuacs.ncsu.edu/k12/gates/gchs.html,Regular School,Public
+380308,Robbinsville High,dmatheson@graham.k12.nc.us,,lkeener@graham.k12.nc.us,http://www.grahamcountyschools.org,Regular School,Public
+390322,Granville Central High,mathisb@gcs.k12.nc.us,farleyl@gcs.k12.nc.us,kernsm@gcs.k12.nc.us,http://gchs.gcs.k12.nc.us,Regular School,Public
+390323,Granville Early College High,harrisj@gcs.k12.nc.us,,newtonm@gcs.k12.nc.us,http://gech.gcs.k12.nc.us,Regular School,Public
+390324,J. F. Webb High,brooksw@gcs.k12.nc.us,,toanonem@gcs.k12.nc.us,http://jfwh.gcs.k12.nc.us,Regular School,Public
+390352,South Granville High School,tusal@gcs.k12.nc.us,,,http://sghs.gcs.k12.nc.us,Regular School,Public
+390700,JF Webb High School Of Health And Life Sciences,salisburyab@gcs.k12.nc.us,,,http://whls.gcs.k12.nc.us,Regular School,Public
+39A000,Falls Lake Academy,amyhobgood@fallslakeacademy.com,AmandaPenn@fallslakeacademy.com,newtonm@gcs.k12.nc.us,http://www.fallslakeacademy.com,Regular School,Charter
+39B000,Oxford Preparatory School,swannerab@oxfordprep.org,,,http://www.oxfordprep.org,Regular School,Charter
+400308,Greene Central High School,patrickgreene@greene.k12.nc.us,patrickgreene@greene.k12.nc.us,cinnamonpowell@greene.k12.nc.us,http://gchs.gcsedu.org,Regular School,Public
+400315,Greene Early College High School,rodneymcneill@greene.k12.nc.us,brittanyjacobs@greene.k12.nc.us,camerongupton@greene.k12.nc.us,http://gec.gcsedu.org,Regular School,Public
+410319,T. Wingate Andrews High School,gausem@gcsnc.com,,mccoins@gcsnc.com,http://andrews.gcsnc.com/pages/Andrews_High,Regular School,Public
+410326,Early/Middle College at Bennett,maxwelt@gcsnc.com,kellyb@gcsnc.com,crosbyd@gcsnc.com,http://mcbennett.gcsnc.com/pages/Middle_College_at_Bennett,Regular School,Public
+410355,James Benson Dudley High School,wildsr@gcsnc.com,,smithq@gcsnc.com,http://dudley.gcsnc.com/pages/Dudley_High,Regular School,Public
+410358,Eastern Guilford High School,sockwel@gcsnc.com,,keenere@gcsnc.com,http://eghs.gcsnc.com/pages/Eastern_Guilford_High,Regular School,Public
+410390,Greensboro College Middle College,keelsc@gcsnc.com,,stephel@gcsnc.com,http://gcmc.gcsnc.com/pages/Greensboro_College_Middle_Coll,Regular School,Public
+410391,William Penn - Alfred J. Griffin School for the Arts,stimpsh@gcsnc.com,bakoulc@gcsnc.com,cruzek@gcsnc.com,http://penngriffin.gcsnc.com/pages/Penn-Griffin_School_for_the_Ar,Regular School,Public
+410394,Grimsley High School,millerj@gcsnc.com,,johnsor@gcsnc.com,http://schoolcenter.gcsnc.com/education/components/scrapbook/default.php?sectionid=7014,Regular School,Public
+410395,The Early College at Guilford College,kiddl@gcsnc.com,,,http://ecg.gcsnc.com/pages/Early_College_At_Guilford,Regular School,Public
+410398,Doris Henderson Newcomers School,zaeema@gcsnc.com,,,http://newcomers.gcsnc.com/pages/Doris_Henderson_Newcomers,Regular School,Public
+410399,Early/Middle College at GTCC - Greensboro,booner@gcsnc.com,,,http://mcgtcc-gso.gcsnc.com/pages/Middle_College_at_GTCC-Greensb,Regular School,Public
+410401,GTCC Early/Middle College - Jamestown,rowlanl@gcsnc.com,dericc@gcsnc.com,barhamg@gcsnc.com,http://mcgtcc-j.gcsnc.com/pages/Middle_College_at_GTCC-Jamesto,Regular School,Public
+410406,High Point Central High School,nixongr@gcsnc.com,rosadoy@gcsnc.com,bazeb@gcsnc.com,http://hpc.gcsnc.com/pages/High_Point_Central_High,Regular School,Public
+410407,The Kearns Academy at Central,johnsob7@gcsnc.com,,harpera@gcsnc.com,http://academyatcentral.gcsnc.com/pages/Academy_at_Central,Regular School,Public
+410408,Early Middle College at GTCC - High Point,harrisd8@gcsnc.com,,auredec@gcsnc.com,http://mcgtcc-hp.gcsnc.com/pages/Middle_College_at_GTCC-High_Po,Regular School,Public
+410483,Early/Middle College at NC A&T University,seegart@gcsnc.com,,higginc@gcsnc.com,http://ncat.gcsnc.com/pages/Middle_College_at_N_C__A_T,Regular School,Public
+410484,Northeast Guilford High School,keenern@gcsnc.com,watsonm2@gcsnc.com,foyes@gcsnc.com,http://neghs.gcsnc.com/pages/Northeast_Guilford_High,Regular School,Public
+410489,Northern Guilford High School,mckenzj2@gcsnc.com,dippels@gcsnc.com,hultbea@gcsnc.com,http://nghs.gcsnc.com/pages/Northern_Guilford_High,Regular School,Public
+410490,Northwest Guilford High School,kitleyr@gcsnc.com,grahamc@gcsnc.com,eglestp@gcsnc.com,http://nwhs.gcsnc.com/pages/Northwest_Guilford_High,Regular School,Public
+410508,Walter Hines Page High School,hinese@gcsnc.com,edwardg@gcsnc.com,abelin@gcsnc.com,http://page.gcsnc.com/pages/Page_High,Regular School,Public
+410529,Lucy Ragsdale High School,gibsonj@gcsnc.com,huntt2@gcsnc.com,alstonv@gcsnc.com,http://schoolcenter.gcsnc.com/education/components/scrapbook/default.php?sectionid=40&url_redirect=1,Regular School,Public
+410544,Ben L. Smith High School,hoskind@gcsnc.com,,jonesb6@gcsnc.com,thttp://smith.gcsnc.com/pages/Smith_High,Regular School,Public
+410545,The Academy at Ben L Smith High School,stokesl2@gcsnc.com,jeffric@gcsnc.com,layned@gcsnc.com,http://academyatsmith.gcsnc.com/pages/Academy_at_Smith,Regular School,Public
+410547,Southeast Guilford High School,seagraj2@gcsnc.com,murrayj4@gcsnc.com,smithm23@gcsnc.com,http://seghs.gcsnc.com/pages/Southeast_Guilford_High,Regular School,Public
+410556,Southern Guilford High School,mullerb@gcsnc.com,,ratlifl3@gcsnc.com,http://sghs.gcsnc.com/pages/Southern_Guilford_High,Regular School,Public
+410562,Southwest Guilford High School,hettenm@gcsnc.com,ognoskl@gcsnc.com,coferk@gcsnc.com,http://swghs.gcsnc.com/pages/Southwest_Guilford_High,Regular School,Public
+410569,STEM Early College at NC A&T SU,williaj7@gcsnc.com,,vaughnm3@gcsnc.com,http://stemec.gcsnc.com/pages/STEM_Early_College_at_N_C__A_T,Regular School,Public
+410579,Middle College at UNCG,polkjoa@gcsnc.com,bakerh2@gcsnc.com,dunovaa@gcsnc.com,http://uncg.gcsnc.com/pages/Middle_College_at_UNCG,Regular School,Public
+410589,Weaver Academy for Performing/Visual Arts & Advanced Techn,laynet@gcsnc.com,,schickc@gcsnc.com,http://weaver.gcsnc.com/pages/Weaver_Academy,Regular School,Public
+410595,Western Guilford High School,kashubp@gcsnc.com,,shoffnl@gcsnc.com,http://wghs.gcsnc.com/pages/Western_Guilford_High,Regular School,Public
+41F000,Triad Math and Science Academy,gtaysever@tmsacharter.org,,,http://www.tmsacharter.org,Regular School,Charter
+41G000,Cornerstone Charter Academy: A Challenge Foundation Academy,jcaraher@cornerstonek12.org, kberg@cornerstonek12.org,jmiller@cornerstonek12.org,http://www.cornerstone.teamcfa.org,Regular School,Charter
+41H000,The College Preparatory and Leadership Academy of High Point,mjohnson@thepointcollegeprep.org,info@thepointcollegeprep.org,,http://www.thepointcollegeprep.org,Regular School,Charter
+41K000,Piedmont Classical High School,hcobb@piedmontclassical.com,kwarner@piedmontclassical.com,styson@piedmontclassical.com,http://www.piedmontclassical.com/,Regular School,Charter
+420346,Northwest Halifax Collegiate and Technical Academy,barfieldm@nw.halifax.k12.nc.us,jacksong@nw.halifax.k12.nc.us,simmondsn@nw.halifax.k12.nc.us,http://www.halifax.k12.nc.us,Regular School,Public
+420358,Southeast Halifax Collegiate Prep Academy,davism@se.halifax.k12.nc.us,battsm@se.halifax.k12.nc.us,,http://www.halifax.k12.nc.us,Regular School,Public
+421316,Roanoke Rapids High School,williamst.rrhs@rrgsd.org,tannerb.rrhs@rrgsd.org,lyonsc.rrhs@rrgsd.org,http://www.rrgsd.org/rrhs,Regular School,Public
+422310,Roanoke Valley Early College High School,pullene@weldoncityschools.k12.nc.us,webbm@weldoncityschools.k12.nc.us,metcalfm@weldoncityschools.k12.nc.us,http://rvec.weldoncityschools.org,Regular School,Public
+422315,Weldon STEM High School Career Academies,greenj@weldoncityschools.k12.nc.us,whitakern@weldoncityschools.k12.nc.us,lynchd@weldoncityschools.k12.nc.us,whs.weldoncityschools.org,Regular School,Public
+430341,Harnett County Early College (HCEC),wmcpherson@harnett.k12.nc.us,drobinson@harnett.k12.nc.us,,-,Regular School,Public
+430346,Harnett Central High,cgordon1@harnett.k12.nc.us,ndixon@harnett.k12.nc.us,tgreiner@harnett.k12.nc.us,http://www.harnett.k12.nc.us/schools/hchs,Regular School,Public
+430371,Overhills High,smatthews@harnett.k12.nc.us,,abarefoot@harnett.k12.nc.us,http://www.harnett.k12.nc.us/education/school/school.php?sectionid=21&,Regular School,Public
+430378,Triton High,cmangum@harnett.k12.nc.us,ahamilton@harnett.k12.nc.us,mjones@harnett.k12.nc.us,http://www.harnett.k12.nc.us/schools/triton/,Regular School,Public
+430384,Western Harnett High,cpearson@harnett.k12.nc.us,,,http://www.harnett.k12.nc.us/schools/whhs/,Regular School,Public
+440346,Haywood Early College,lorifox@haywood.k12.nc.us, aballance@haywood.k12.nc.us,dblankenship@haywood.k12.nc.us,http://www.hec.haywood.k12.nc.us/,Regular School,Public
+440378,Pisgah High,jbarker@haywood.k12.nc.us,ddills@haywood.k12.nc.us, rgibson@haywood.k12.nc.us,http://www.phs.haywood.k12.nc.us,Regular School,Public
+440390,Tuscola High,tcollins@haywood.k12.nc.us,kijones@haywood.k12.nc.us, esmiley@haywood.k12.nc.us,http://www.ths.haywood.k12.nc.us,Regular School,Public
+450316,East Henderson High,cwtaylor@hcpsnc.org,,,http://www.hendersoncountypublicschoolsnc.org/ehh/,Regular School,Public
+450334,Hendersonville High,wrwilkins@hcpsnc.org,,,http://www.hendersoncountypublicschoolsnc.org/hhs/,Regular School,Public
+450341,North Henderson High,jcshepard@hcpsnc.org,,,http://www.hendersoncountypublicschoolsnc.org/nhh/,Regular School,Public
+450352,West Henderson High,scauten@hcpsnc.org,,,http://www.hendersoncountypublicschoolsnc.org/whh/,Regular School,Public
+450354,Henderson County Early College,bacaudle@hcpsnc.org,,,http://www.hendersoncountypublicschoolsnc.org/hcec/,Regular School,Public
+460320,Hertford County High School,ecooley@hertford.k12.nc.us,,,-,Regular School,Public
+460322,Hertford County Early College High School,lbritt@hertford.k12.nc.us,,mkinkead@hertford.k12.nc.us,http://www.hertford.k12.nc.us/HertfordECollege.cfm,Regular School,Public
+460340,CS Brown High School,bjones@hertford.k12.nc.us,,,-,Regular School,Public
+470312,Hoke County High,redwards@hcs.k12.nc.us,,,http://www.hcs.k12.nc.us/hhs/default.htm,Regular School,Public
+470443,SandHoke Early College High School,cpegram@hcs.k12.nc.us,,mstanley@hcs.k12.nc.us ,http://shec.hcs.k12.nc.us/,Regular School,Public
+480316,Ocracoke School,lcole@hyde.k12.nc.us,lcaswell@hyde.k12.nc.us,mshoemaker@hyde.k12.nc.us,http://www.hyde.k12.nc.us,Regular School,Public
+480318,Mattamuskeet Early College High School,rarmstrong@hyde.k12.nc.us,harrism@hyde.k12.nc.us,rperry@hyde.k12.nc.us,http://mhs.hyde.k12.nc.us/,Regular School,Public
+490310,Career Academy and Technical School,lrogers@iss.k12.nc.us,,,http://iss.schoolwires.com/cats/site/default.asp,Regular School,Public
+490320,Collaborative College for Technology and Leadership,teri_hutchens@iss.k12.nc.us,ksetser@iss.k12.nc.us,mginnerty@iss.k12.nc.us,http://www.iss.k12.nc.us/schools/earlycollege,Regular School,Public
+490335,Lake Norman High School,kgentle@iss.k12.nc.us,carla_wimpy@iss.k12.nc.us,omega_butia@iss.k12.nc.us,http://www.iss.k12.nc.us/schools/lnhs,Regular School,Public
+490346,North Iredell High School,teresa_hays@iss.k12.nc.us,,abustle@iss.k12.nc.us,http://www.iss.k12.nc.us/schools/nihs,Regular School,Public
+490354,Statesville High School,hans_lassiter@iss.k12.nc.us,pmassenburg@iss.k12.nc.us,micah_durham@iss.k12.nc.us,http://www.iss.k12.nc.us/schools/shs,Regular School,Public
+490355,Crossroads Arts and Sciences Early College,aeller@iss.k12.nc.us,lanise_ white@iss.k12.nc.us ,mwilliams24@iss.k12.nc.us,http://www.iss.k12.nc.us/vpac,Regular School,Public
+490362,South Iredell High School,tivey@iss.k12.nc.us, jljohnson@iss.k12.nc.us,Jared_Bourne@iss.k12.nc.us,http://www.iss.k12.nc.us/schools/sihs,Regular School,Public
+490380,West Iredell High School,gpalmer@iss.k12.nc.us,,jfredo@iss.k12.nc.us,http://www.iss.k12.nc.us/schools/wihs,Regular School,Public
+491312,Mooresville High School,eschwarznegger@mgsd.k12.nc.us,awelch@mgsd.k12.nc.us,terryshinn@mgsd.k12.nc.us,http://www.mgsd.k12.nc.us/page.cfm?p=2730,Regular School,Public
+4.90E+01,"Pine Lake Preparatory, Inc.",andrew.moceri@pinelakeprep.org,katherine.kwiatkowski@pinelakeprep.org,bethany.hanlon@pinelakeprep.org,http://www.pinelakeprep.org,Regular School,Charter
+49F000,Langtree Charter Academy,anivens@langtreecharter.org,info@langtreecharter.org,,http://langtreecharter.org,Regular School,Charter
+500302,Blue Ridge Early College,bspeckhardt@jcpsmail.org,arice@jcpsmail.org,,https://www.jcps.k12.nc.us/Schools/brec/Pages/default.aspx,Regular School,Public
+500323,Jackson County Early College,rensley@jcpsmail.org,swoodring@jcpsmail.org,bpendergast@jcpsmail.org,https://www.jcps.k12.nc.us/Schools/jcec/Pages/default.aspx,Regular School,Public
+500340,Smoky Mountain High,jbuchanan@jcpsmail.org,ahall@jcpsmail.org,dbanks@jcpsmail.org,https://www.jcps.k12.nc.us/Schools/smh/Pages/default.aspx,Regular School,Public
+510324,Clayton High,BennettJones@johnston.k12.nc.us,,JessicaFraser@johnston.k12.nc.us,http://chs.johnston.k12.nc.us,Regular School,Public
+510325,Johnston County Schools Career Technical Leadership Academy,sheilasingleton@johnston.k12.nc.us,GaileBrittain@johnston.k12.nc.us,jacquelynjones@johnston.k12.nc.us,http://jcctla.johnston.k12.nc.us/,Vocational Education,Public
+510327,Cleveland High School,jennasauls@johnston.k12.nc.us,,johnowen@johnston.k12.nc.us,http://cvhs.johnston.k12.nc.us,Regular School,Public
+510333,Corinth Holders High School,robertdaniels@johnston.k12.nc.us,maureenblandford@johnston.k12.nc.us,Ryanlowdermilk@johnston.k12.nc.us,http://chhs.johnston.k12.nc.us,Regular School,Public
+510357,Johnston County Middle College High,kendrickbyrd@johnston.k12.nc.us, CarolynDixon@johnston.k12.nc.us, travistowne@johnston.k12.nc.us,http://jcmch.johnston.k12.nc.us,Regular School,Public
+510367,Johnston County Early College Academy,ClintEaves@johnston.k12.nc.us,kellymartin@johnston.k12.nc.us, matthewjohnson@johnston.k12.nc.us,http://jceca.johnston.k12.nc.us,Regular School,Public
+510368,North Johnston High,benwilliams@johnston.k12.nc.us,debbiehouse@johnston.k12.nc.us,jonathanhartley@johnston.k12.nc.us,http://njhs.johnston.k12.nc.us,Regular School,Public
+510376,Princeton Middle/High,JarvisEllis@johnston.k12.nc.us,christymitteldorfer@johnston.k12.nc.us, annbrown@johnston.k12.nc.us,http://phs.johnston.k12.nc.us,Regular School,Public
+510399,Smithfield-Selma High,davidallen@johnston.k12.nc.us,ronlentini@johnston.k12.nc.us,,http://sss.johnston.k12.nc.us,Regular School,Public
+510402,South Johnston High,DavidPearce@johnston.k12.nc.us,,ashleyennis@johnston.k12.nc.us,http://sjhs.johnston.k12.nc.us,Regular School,Public
+510406,West Johnston High,jenniferswartz@johnston.k12.nc.us,shirleygbaker@johnston.k12.nc.us, colleenbonner@johnston.k12.nc.us,http://wjhs.johnston.k12.nc.us,Regular School,Public
+51A000,Neuse Charter School,spullium@neusecharterschool.org,smoody@neusecharterschool.org,rking@neusecharterschool.org,http://www.neusecharterschool.org,Regular School,Charter
+520320,Jones Senior High,michael.white@jonesnc.net,,,http://www.jonesnc.net/jhs/,Regular School,Public
+530335,Lee Early College ,kderr.lec@lee.k12.nc.us,mwalton.lec@lee.k12.nc.us,sholeczy.lec@lee.k12.nc.us,http://www.lee.k12.nc.us/schools/lec/frontpage.html,Regular School,Public
+530336,Lee County High School ,sross.ls@lee.k12.nc.us,,mmccaskill.ls@lee.k12.nc.us ,http://www.lee.k12.nc.us/lchs/index.html,Regular School,Public
+530343,Southern Lee High School ,cdossenbach.sl@lee.k12.nc.us,ssharpe.sl@lee.k12.nc.us ,,http://www.lee.k12.nc.us/schools/slhs/lcs/frontpage.html,Regular School,Public
+540315,Kinston High,kbryant@lenoir.k12.nc.us,lajones@lenoir.k12.nc.us,smcintyre@lenoir.k12.nc.us,http://schools.lenoir.k12.nc.us/khs/,Regular School,Public
+540317,Lenoir County Early College High,dheath@lenoir.k12.nc.us,,shines@lenoir.k12.nc.us,https://sites.google.com/a/lenoir.k12.nc.us/earlycollege/,Regular School,Public
+540324,North Lenoir High,grespess@lenoir.k12.nc.us,woliver@lenoir.k12.nc.us,holder@lenoir.k12.nc.us,http://schools.lenoir.k12.nc.us/nlhs/,Regular School,Public
+540336,South Lenoir High,jsaintamand@lenoir.k12.nc.us,tbeyer@lenoir.k12.nc.us,jebarnett@lenoir.k12.nc.us,http://schools.lenoir.k12.nc.us/slhs/,Regular School,Public
+550320,East Lincoln High ,mavery@lincoln.k12.nc.us,,dbrehm@lincoln.k12.nc.us,http://www.lincoln.k12.nc.us/elhs_web_page/index.htm,Regular School,Public
+550332,Lincolnton High,tworley@lincoln.k12.nc.us,,rcowie@lincoln.k12.nc.us,http://www.lincoln.k12.nc.us/lhs/lhs.htm,Regular School,Public
+550344,North Lincoln High,msherrill@lincoln.k12.nc.us,,kbarney@lincoln.k12.nc.us,http://www.lincoln.k12.nc.us/NLHS/index.htm,Regular School,Public
+550368,West Lincoln High,bclary@lincoln.k12.nc.us,, Jmarkley@lincoln.k12.nc.us,http://www.lincoln.k12.nc.us/wlhs_webpage/index.htm,Regular School,Public
+55A000,Lincoln Charter School,jonathan.bryant@lincolncharter.org,robin.coffey@lincolncharter.org,rachel.drake@lincolncharter.org,http://www.lincolncharter.org/,Regular School,Charter
+560320,Franklin High,barry.woody@macon.k12.nc.us,lillian.gerber@macon.k12.nc.us,denise.davis@macon.k12.nc.us,http://www.macon.k12.nc.us/fhs/,Regular School,Public
+560324,Highlands School,brian.jetter@macon.k12.nc.us,annette.jenkins@macon.k12.nc.us,,http://www.macon.k12.nc.us/highlands/,Regular School,Public
+560329,Macon Early College High School,mark.sutton@macon.k12.nc.us,sue.carrion@macon.k12.nc.us,gary.brown@macon.k12.nc.us,http://www.macon.k12.nc.us/MEC,Regular School,Public
+560332,Nantahala School,andrew.pyle@macon.k12.nc.us,,,http://www.macon.k12.nc.us/nantahala/,Regular School,Public
+570317,Madison Early College High School,jcaldwell:@madisonk12.net,pzimmerman@madisonk12.net,eblackman@madisonk12.net,https://www.madisonk12.net/Domain/220,Regular School,Public
+570318,Madison High School,wfloyd@madisonk12.net,bogle@madisonk12.net,dburrell@madisonk12.net,https://www.madisonk12.net/Domain/314,Regular School,Public
+580344,South Creek High,pahagen@martin.k12.nc.us,,pherring@martin.k12.nc.us,www.martin.k12.nc.us,Regular School,Public
+580368,Riverside High,jguard@martin.k12.nc.us,rmanning@martin.k12.nc.us,khoggard@martin.k12.nc.us,www.martin.k12.nc.us,Regular School,Public
+58B000,Bear Grass Charter School,dmoore@beargrasscharter.org,jyelverton@beargrasscharter.org,mgoetz@beargrasscharter.org,http://www.beargrasscharter.org,Regular School,Charter
+590328,McDowell Early College,lisa.robinson@mcdowell.k12.nc.us,,,http://www.mec.mcdowell.k12.nc.us,Regular School,Public
+590330,McDowell High School,edwin.spivey@mcdowell.k12.nc.us,,,http://www.mhs.mcdowell.k12.nc.us,Regular School,Public
+600302,Ardrey Kell High School,p302@cms.k12.nc.us,lori.lang@cms.k12.nc.us,annaleighb.marquez@cms.k12.nc.us,http://schools.cms.k12.nc.us/ardreykellHS,Regular School,Public
+600312,William Amos Hough High School,p312@cms.k12.nc.us,amy.lepage@cms.k12.nc.us,colleen.casey@cms.k12.nc.us,http://schools.cms.k12.nc.us/williamamoshoughHS,Regular School,Public
+600334,Cato Middle College High,p334@cms.k12.nc.us,felishd.jones@cms.k12.nc.us,,http://schools.cms.k12.nc.us/catoHS,Regular School,Public
+600341,Cochrane Collegiate Academy,p341@cms.k12.nc.us,tania1.valencia@cms.k12.nc.us,jeffrey.foels@cms.k12.nc.us,http://schools.cms.k12.nc.us/cochraneMS,Regular School,Public
+600361,David W Butler High,p361@cms.k12.nc.us,dorothy.flaherty@cms.k12.nc.us,kevin.cloer@cms.k12.nc.us,http://schools.cms.k12.nc.us/butlerHS,Regular School,Public
+600364,The Military and Global Leadership Academy,p364@cms.k12.nc.us,katrinaa.robinson@cms.k12.nc.us,shannont.hollis@cms.k12.nc.us,hhttp://schools.cms.k12.nc.us/mglaHS,Regular School,Public
+600377,East Mecklenburg High,p377@cms.k12.nc.us,eastmeckhigh@cms.k12.nc.us,karlae.berrios@cms.k12.nc.us,http://schools.cms.k12.nc.us/eastmecklenburgHS,Regular School,Public
+600386,Hawthorne Academy of Health Sciences,p386@cms.k12.nc.us,waynettet.beatty@cms.k12.nc.us,be.hudson-young@cms.k12.nc.us,http://schools.cms.k12.nc.us/hawthorneAE,Regular School,Public
+600397,Garinger High School,p397@cms.k12.nc.us,pamelah.rice@cms.k12.nc.us,matthew1.baker@cms.k12.nc.us,http://schools.cms.k12.nc.us/garingerHS/Pages/Default.aspx,Regular School,Public
+600404,Harper Middle College High,p404@cms.k12.nc.us,clintonb.cohens@cms.k12.nc.us,,http://schools.cms.k12.nc.us/levineHS/Pages/Default.aspx,Regular School,Public
+600405,Harding University High,p405@cms.k12.nc.us,dana.stallings@cms.k12.nc.us,angela1.berry@cms.k12.nc.us,http://schools.cms.k12.nc.us/hardinguniversityHS,Regular School,Public
+600415,Hopewell High,p415@cms.k12.nc.us,marcia.strickland@cms.k12.nc.us,samuelg.kakavitsas@cms.k12.nc.us,http://schools.cms.k12.nc.us/hopewellHS,Regular School,Public
+600426,Independence High,p426@cms.k12.nc.us,risam.kudeviz@cms.k12.nc.us,tamara.babulski@cms.k12.nc.us,http://schools.cms.k12.nc.us/independenceHS,Regular School,Public
+600443,Levine Middle College High,p443@cms.k12.nc.us,kimberlee.stiles@cms.k12.nc.us,william.hause@cms.k12nc.us,http://schools.cms.k12.nc.us/levineHS/Pages/Default.aspx,Regular School,Public
+600445,Mallard Creek High,p445@cms.k12.nc.us,pamala.pullen@cms.k12.nc.us,thomast.bogucki@cms.k12.nc.us,http://schools.cms.k12.nc.us/mallardcreekHS,Regular School,Public
+600457,Rocky River High School,p457@cms.k12.nc.us,colette.benson@cms.k12.nc.us,erikl.dove@cms.k12.nc.us,http://schools.cms.k12.nc.us/rockyriverHS,Regular School,Public
+600466,Myers Park High,p466@cms.k12.nc.us,pam.bartel@cms.k12.nc.us,markp.clarke@cms.k12.nc.us,http://schools.cms.k12.nc.us/myersparkHS,Regular School,Public
+600480,North Mecklenburg High,p480@cms.k12.nc.us,margell.rucker@cms.k12.nc.us,zakiyahn.everette@cms.k12.nc.us,http://schools.cms.k12.nc.us/northmecklenburgHS,Regular School,Public
+600482,Northwest School of the Arts,m.sears@cms.k12.nc.us,catherine.leeson@cms.k12.nc.us,jd.king@cms.k12.nc.us,http://schools.cms.k12.nc.us/northwestHS,Regular School,Public
+600496,Phillip O. Berry Academy of Technology,p496@cms.k12.nc.us,kimberlyr.oden@cms.k12.nc.us,lawrence.brinson@cms.k12.nc.us,http://schools.cms.k12.nc.us/phillipoberryHS,Regular School,Public
+600498,Performance Learning Center,p498@cms.k12.nc.us,loretta.johnson@cms.k12.nc.us,james.mccormack@cms.k12.nc.us,http://schools.cms.k12.nc.us/plcHS,Regular School,Public
+600499,eLearning Academy,p499@cms.k12.nc.us,katossar.glover@cms.k12.nc.us,andrenar.goodwin@cms.k12.nc.us,http://schools.cms.k12.nc.us/elearningacademyHS/Pages/Default.aspx,Regular School,Public
+600508,Providence High,p508@cms.k12.nc.us,patty.wallwork@cms.k12.nc.us,robb.bolar@cms.k12.nc.us,http://schools.cms.k12.nc.us/providenceHS,Regular School,Public
+600535,South Mecklenburg High,p535@cms.k12.nc.us,junem.kierce@cms.k12.nc.us,james.bello@cms.k12.nc.us,http://schools.cms.k12.nc.us/southmecklenburgHS,Regular School,Public
+600567,Charlotte Engineering Early College,p567@cms.k12.nc.us,karlynj.mann@cms.k12.nc.us,amandag.brigden@cms.k12.nc.us,http://schools.cms.k12.nc.us/unccepicHS/Pages/Default.aspx,Regular School,Public
+600576,West Charlotte High,timisha.barnes-jones@cms.k12.nc.us,d1.caraballo-solivan@cms.k12.nc.us,ronalda.king@cms.k12.nc.us,http://schools.cms.k12.nc.us/westcharlotteHS,Regular School,Public
+600579,West Mecklenburg High,p579@cms.k12.nc.us,cheryl1.howard@cms.k12.nc.us,alexanderh.denham@cms.k12.nc.us,http://schools.cms.k12.nc.us/westmecklenburgHS,Regular School,Public
+600592,Zebulon B Vance High,p592@cms.k12.nc.us,karen1.crespo@cms.k12.nc.us,edwinj.campbell@cms.k12.nc.us,http://schools.cms.k12.nc.us/vanceHS,Regular School,Public
+600594,Merancas Middle College High,p594@cms.k12.nc.us,beverly.dawkins@cms.k12.nc.us,,http://schools.cms.k12.nc.us/merancasHS,Regular School,Public
+600693,Renaissance School of Arts/Technology at Olympic ,p693@cms.k12.nc.us,bettyt.wyrick@cms.k12.nc.us,melissae.giblin@cms.k12.nc.us,http://schools.cms.k12.nc.us/renaissanceOHS/Pages/Default.aspx,Regular School,Public
+600694,"School of Math, Engineering, Technology & Science at Olympic",p694@cms.k12.nc.us,c.casey@cms.k12.nc.us,larry.cooper@cms.k12.nc.us,http://schools.cms.k12.nc.us/metsOHS,Regular School,Public
+600695,School of Tech Entrepreneurship/Adv Manufacturing at Olympic,p695@cms.k12.nc.us,keria.sanders@cms.k12.nc.us,mallorym.herman@cms.k12.nc.us,http://schools.cms.k12.nc.us/teamOHS/Pages/Default.aspx,Regular School,Public
+600696,School of Exe Leadership/Entrepreneurial Develop at Olympic,p696@cms.k12.nc.us,c.mclaurin@cms.k12.nc.us,keithv.tumolo@cms.k12.nc.us,http://schools.cms.k12.nc.us/eledOHS/Pages/Default.aspx,Regular School,Public
+600697,"School of Biotechnology, Health & Public Admin. at Olympic",p697@cms.k12.nc.us,ayanna1.mcclurkin@cms.k12.nc.us,keisa.hines@cms.k12.nc.us,http://schools.cms.k12.nc.us/bhpaOHS,Regular School,Public
+60B000,Sugar Creek Charter,cturner@thesugarcreek.org,info@thesugarcreek.org,elizbeth.acosta@thesugarcreek.org,http://www.thesugarcreek.org/,Regular School,Charter
+60D000,Lake Norman Charter,sstein@lncharter.org,,,http://www.lncharter.org,Regular School,Charter
+60G000,Queen's Grant Community School,43.ktolchin@nhaschools.com,,,http://www.queensgrantcommunityschool.org/,Regular School,Charter
+60I000,Community School of Davidson,jwarner@csdspartans.org,,,http://www.csdspartans.org,Regular School,Charter
+60K000,Charlotte Secondary School,anthony.hall@charlottesecondary.org,development@charlottesecondary.com,,http://www.charlottesecondary.org,Regular School,Charter
+60S000,Bradford Preparatory School,kelly.painter@bradfordprep.org,Judy.Nelms@bradfordprep.org,paul.graham@bradfordprep.org,http://www.bradfordprep.org,Regular School,Charter
+60V000,Charlotte Learning Academy,stcrose1@gmail.com,,,http://www.charlottelearningacademy.org,Regular School,Charter
+610332,Mayland Early College,stacieburleson@meclive.net,varrowood@mcnsnc.org,aedwards@meclive.net,https://sites.google.com/a/mcsnc.org/mechs/,Regular School,Public
+610334,Mitchell High,mwoody@mcsnc.org,,,https://sites.google.com/a/mhslive.net/mhs---mitchell-high-school/,Regular School,Public
+61L000,Stewart Creek High School,Jonathan.Kay@als-education.com,,,http://stewartcreekhs.com/,Regular School,Charter
+620316,East Montgomery High,tim.addis@montgomery.k12.nc.us,,ray.massey@montgomery.k12.nc.us,http://montgomery.k12.nc.us,Regular School,Public
+620340,West Montgomery High,benjie.brown@montgomery.k12.nc.us,,sabrena.conrad@motgomery.k12.nc.us,http://montgomery.k12.nc.us,Regular School,Public
+620350,Montgomery County Early College,Heather.Seawell@montgomery.k12.nc.us,,,-,Vocational Education,Public
+630332,North Moore High School,jcpurvis@ncmcs.org,abrewer@ncmcs.org,ekafka@ncmcs.org ,http://www.ncmcs.org/nmhs,Regular School,Public
+630336,Pinecrest High School,rchristina@ncmcs.org,,sfarbotnik@ncmcs.org,http://www.ncmcs.org/pchs,Regular School,Public
+630360,Union Pines High School,amccormick@ncmcs.org,kthompson@ncmcs.org,rhobgood@ncmcs.org,http://www.ncmcs.org/uphs,Regular School,Public
+640346,Nash Central High,vlward@nrms.k12.nc.us,hfmedlin@nrms.k12.nc.us,gsbanning@nrms.k12.nc.us,http://www.nrms.schoolwires.net/nchs,Regular School,Public
+640347,NRM Early College High School,jlsharpe@nrms.k12.nc.us,mlhunter@nrms.k12.nc.us,,http://www.nrms.schoolwires.net/echs,Regular School,Public
+640350,Northern Nash High,bkhopkins@nrms.k12.nc.us,,,http://www.nrms.schoolwires.net/nnhs,Regular School,Public
+640361,Rocky Mount High,dlcolvin@nrms.k12.nc.us,jscraig@nrms.k12.nc.us,ctharrell@nrms.k12.nc.us,http://www.nrms.schoolwires.net/rmhs,Regular School,Public
+640364,Southern Nash High,hdscott@nrms.k12.nc.us,MLMarshburn@nrms.k12.nc.us,Cabarron@nrms.k12.nc.us,http://www.nrms.schoolwires.net/snhs,Regular School,Public
+64A000,"Rocky Mount Preparatory School, Inc.",tpipkin@rmprep.org,gwilliams@rmprep.org,tmoore@rmprep.org,http://rmprep.org/,Regular School,Charter
+650326,Emsley A Laney High,sharon.dousharm@nhcs.net,,Richelle.Dombroski@nhcs.net,http://www.nhcs.k12.nc.us/laney,Regular School,Public
+650327,Eugene Ashley High,patrick.mccarty@nhcs.net,karen.atkins@nhcs.net,amy.chesek@nhcs.net,http://www.nhcs.k12.nc.us/ashley/,Regular School,Public
+650340,Isaac M Bear Early College High School,marypaul.beall@nhcs.net,,,-,Regular School,Public
+650342,John T Hoggard High,steven.sullivan@nhcs.net,brenda.gustafson@nhcs.net,cathleen.allman@nhcs.net ,http://www.nhcs.k12.nc.us/hoggard,Regular School,Public
+650352,New Hanover High,rob.morgan@nhcs.net,,vincent.hovis@nhcs.net,http://www.nhcs.k12.nc.us/nhhs,Regular School,Public
+650394,Wilmington Early College High School,regina.wooten@nhcs.net,sherri.yelton@nhcs.net,margaret.krulikas@nhcs.net,http://www.nhcs.k12.nc.us/wechs/,Regular School,Public
+650395,Southeast Area Technical High School,edith.skipper@nhcs.net,laura.leatherman@nhcs.net,randolph.duncan@nhcs.net,http://www.nhcs.net/seatech/,Vocational Education,Public
+660336,Northampton County High School ,battlec@northampton.k12.nc.us,,,http://northamptonhigh.sharpschool.com/,Regular School,Public
+660400,Northampton CO High School Early College,edmondsm@northampton.k12.nc.us,,,-,Regular School,Public
+66A000,KIPP Gaston College Preparatory,tsutton@kippenc.org,,,http://www.kippenc.org,Regular School,Charter
+670300,Onslow Early College,james.strope@onslow.k12.nc.us,,,-,Regular School,Public
+670320,Dixon High,dhs@onslow.k12.nc.us,,,http://dixon.nc.och.schoolinsites.com/,Regular School,Public
+670324,Jacksonville High,darin.cloninger@onslow.k12.nc.us,,,http://jhs.ncfreedom.com,Regular School,Public
+670333,Northside High,maria.johnson@onslow.k12.nc.us,,alicia.goynes@onslow.k12.nc.us,http://www.northsidemonarchs.org/,Regular School,Public
+670340,Richlands High,brad.staley@onslow.k12.nc.us,,,http://www.northcarolina.ihigh.com/richlandswildcats/,Regular School,Public
+670344,Southwest High,tim.foster@onslow.k12.nc.us,,,-,Regular School,Public
+670352,Swansboro High,chris.andre@onslow.k12.nc.us,No direct email listed but you can send an email through teh website http://swansboro.nc.och.schoolinsites.com/Common/Email/Email.asp?UserID=Contact&SchoolID=2954&Sashank=NoCC,No direct email listed but there is an online email program: http://swansboro.nc.och.schoolinsites.com/?PageName=TeacherPage&Page=4&StaffID=70112&iSection=Teachers&CorrespondingID=70112,-,Regular School,Public
+670364,White Oak High,chris.barnes@onslow.k12.nc.us,,http://whiteoak.nc.och.schoolinsites.com/Common/Email/Email.asp?UserID=70132&SchoolID=2955,http://www.geocities.com/wohsviks/wohsfrm.html,Regular School,Public
+679218,Lejeune High School,eric.steimel@am.dodea.edu,deborah.miller@am.dodea.edu ,,http://www.am.dodea.edu/lejeune/lhs/,Regular School,Federal
+680310,Cedar Ridge High,heather.blackmon@orange.k12.nc.us,dawn.brown@orange.k12.nc.us,douglas.buchacek@orange.k12.nc.us,http://www.orange.k12.nc.us/crhs/default.htm,Regular School,Public
+680332,Orange High,eric.yarbrough@orange.k12.nc.us,theresa.reitano@orange.k12.nc.us,lee.gordon@orange.k12.nc.us,http://www.orange.k12.nc.us/OHS/,Regular School,Public
+681305,Carrboro High School,brudolph@chccs.k12.nc.us,barbara.jackson@chccs.k12.nc.us,cbeichner@chccs.k12.nc.us,http://chs.chccs.k12.nc.us,Regular School,Public
+681308,Chapel Hill High School,sjackson@chccs.k12.nc.us,lbassdevine@chccs.k12.nc.us ,,http://chhs.chccs.k12.nc.us,Regular School,Public
+681314,East Chapel Hill High School,etully@chccs.k12.nc.us,swalker@chccs.k12.nc.us,lstapleton@chccs.k12.nc.us ,http://echhs.chccs.k12.nc.us,Regular School,Public
+681328,UNC Hospital School,mruben@chccs.k12.nc.us,aromatzick@chccs.k12.nc.us ,,http://unchs.chccs.k12.nc.us,Regular School,Public
+68A000,Eno River Academy,lbair@enoriveracademy.org,ltriplett@enoriveracademy.org,"coakley@enoriveracademy.org",http://www.enoriveracademy.org,Regular School,Charter
+690320,Pamlico County High School,chrismeadows@pamlicoschools.org,http://pchs.pamlicoschools.org/apps/email/index.jsp?e=327232683276325432603286327433003282328032903290326032863186328232523276327432683256328032883256326632803280327432883150328032863264&n=Kim%20Potter,,http://pchs.pamlicoschools.org/,Regular School,Public
+69A000,Arapahoe Charter School,dennis.sawyer@arapahoecharter.org,dennis.sawyer@arapahoecharter.org ,bradley.sawyer@arapahoecenter.org,http://www.arapahoecharter.org,Regular School,Charter
+700317,Northeastern High,acampbell@ecpps.k12.nc.us,aalexander@ecpps.k12.nc.us ,ethornton@ecpps.k12.nc.us,http://www.ecpps.k12.nc.us/northeastern-high-school,Regular School,Public
+700319,Pasquotank County High,bruffin@ecpps.k12.nc.us,ptownsend@ecpps.k12.nc.us ,jcassino@ecpps.k12.nc.us,http://www.ecpps.k12.nc.us/pasquotank-county-high-school,Regular School,Public
+700325,Elizabeth City Pasquotank Early College,afyffe@ecpps.k12.nc.us,aself@ecpps.k12.nc.us ,jloeffler@ecpps.k12.nc.us ,http://www.ecpps.k12.nc.us/elizabeth-city-pasquotank-early-college,Regular School,Public
+70A000,Northeast Academy of Aerospace & Advanced Technologies,ceo@northeastacademy.org,info@northeastacademy.org,,http://www.northeastacademy.org/,Regular School,Charter
+710321,Heide Trask High School,tosha_diggs@pender.k12.nc.us,kimberly_zampitella@pender.k12.nc.us ,kelly_crews@pender.k12.nc.us    ,https://sites.google.com/a/pender.k12.nc.us/htshs/,Regular School,Public
+710326,Pender High School,christopher_madden@pender.k12.nc.us,aileene_moore@pender.k12.nc.us ,pierre_agena@pender.k12.nc.us,https://sites.google.com/a/pender.k12.nc.us/phs/,Regular School,Public
+710327,Pender Early College High School,kevin_taylor@pender.k12.nc.us,george_rose@pender.k12.nc.us,abby_robbins@pender.k12.nc.us,https://sites.google.com/a/pender.k12.nc.us/pechs/,Regular School,Public
+710342,Topsail High School,donald_simmons@pender.k12.nc.us,sherry_andrews@pender.k12.nc.us ,christopher_blake@pender.k12.nc.us,https://sites.google.com/a/pender.k12.nc.us/ths/,Regular School,Public
+720316,Perquimans County High,wayneprice@pqschools.org,chantelassiter@pcs.k12.nc.us,michaelcastle@pcs.k12.nc.us,https://sites.google.com/a/pcs.k12.nc.us/pchs/,Regular School,Public
+730350,Person Early College for Innovation & Leadership,johnsons@person.k12.nc.us,gravess@person.k12.nc.us,dunevants@person.k12.nc.us,https://www.pcsnc.org/Domain/19,Regular School,Public
+730352,Person High,sydnorn@person.k12.nc.us,catess@person.k12.nc.us,blanksj@person.k12.nc.us,https://www.pcsnc.org/Domain/20,Regular School,Public
+73B000,"Roxboro Community School, Inc.",ingramdm@roxborocs.org,info@roxborocs.org,,http://www.roxborocommunityschool.org,Regular School,Charter
+740304,Ayden Elementary School,coxc@pitt.k12.nc.us,BattsS@pitt.k12.nc.us,CheelyM@pitt.k12.nc.us,http://www.pitt.k12.nc.us,Regular School,Public
+740309,Ayden-Grifton High School,caytonch@pitt.k12.nc.us,bowenj1@pitt.k12.nc.us,coles@pitt.k12.nc.us,http://www.pitt.k12.nc.us,Regular School,Public
+740333,D H Conley High School,marrd@pitt.k12.nc.us,BattsC@pitt.k12.nc.us,barrowb@pittschools.org,http://www.pitt.k12.nc.us,Regular School,Public
+740344,Farmville Central High School,JOHNSTB@pitt.k12.nc.us,hardyl@pitt.k12.nc.us,bellerc@pitt.k12.nc.us,http://www.pitt.k12.nc.us,Regular School,Public
+740366,Junius H Rose High,jacobsm@pitt.k12.nc.us,cookee@pitt.k12.nc.us,armstrong@pitt.k12.nc.us,http://www.pitt.k12.nc.us,Regular School,Public
+740374,North Pitt High School,harrism@pitt.k12.nc.us,morrism2@pitt.k12.nc.us,jefferl@pitt.k12.nc.us,http://www.pitt.k12.nc.us,Regular School,Public
+740388,South Central High School,cannonj@pitt.k12.nc.us,HillL@pitt.k12.nc.us,bridgev@pitt.k12.nc.us,http://www.pitt.k12.nc.us,Regular School,Public
+750317,Polk County Early College,mgreene@polkschools.org,,mattroberts@polkschools.org,http://pcec.polkschools.org,Regular School,Public
+750318,Polk County High School,bschweitzer@polkschools.org,rculbreth@polkschools.org,crhodes@polkschools.org,http://pchs.polkschoools.org,Regular School,Public
+760318,Eastern Randolph High School,gbatten@randolph.k12.nc.us,email through website: http://erhs.randolph.k12.nc.us/?PageName=%27Bio%27&StaffID=%27327633%27,email through website: http://erhs.randolph.k12.nc.us/?PageName=TeacherPage&Page=1&StaffID=379742,http://www.randolph.k12.nc.us/schools/erhs/Pages/Default.aspx,Regular School,Public
+760339,Providence Grove High School,bwalston@randolph.k12.nc.us,email through website: http://pghs.randolph.k12.nc.us/?PageName=%27Bio%27&StaffID=%27326484%27,email through website: http://pghs.randolph.k12.nc.us/?PageName=TeacherPage&Page=1&StaffID=380162&iSection=Teachers&CorrespondingID=380162,http://www.randolph.k12.nc.us/schools/pghs/Pages/Default.aspx,Regular School,Public
+760348,Randleman High School,dhamilton@randolph.k12.nc.us,email through website: http://rhs.randolph.k12.nc.us/?PageName=%27Bio%27&StaffID=%27326076%27,email through website: http://rhs.randolph.k12.nc.us/?PageName=%27Bio%27&StaffID=%27385439%27,http://www.randolph.k12.nc.us/schools/rhs/Pages/Default.aspx,Regular School,Public
+760354,Randolph Early College High School,a1thompson@randolph.k12.nc.us, mscott@randolph.k12.nc.us,http://rechs.randolph.k12.nc.us/?PageName=TeacherPage&Page=2&StaffID=326610&iSection=Teachers&CorrespondingID=326610,http://www.randolph.k12.nc.us/schools/rechs/Pages/Default.aspx,Regular School,Public
+760358,Southwestern Randolph High School,shildreth@randolph.k12.nc.us,email through website: http://swrhs.randolph.k12.nc.us/?PageName=%27Bio%27&StaffID=%27329131%27,email through website: http://swrhs.randolph.k12.nc.us/?PageName=TeacherPage&Page=1&StaffID=327657&iSection=Teachers&CorrespondingID=327657,http://www.randolph.k12.nc.us/schools/swrhs/Pages/Default.aspx,Regular School,Public
+760380,Trinity High School,btoth@randolph.k12.nc.us,email through websit: http://ths.randolph.k12.nc.us/?PageName=%27Bio%27&StaffID=%27349379%27,email through website: http://ths.randolph.k12.nc.us/?PageName=TeacherPage&Page=1&StaffID=329903&iSection=Teachers&CorrespondingID=329903,http://www.randolph.k12.nc.us/schools/ths/Pages/Default.aspx,Regular School,Public
+760382,Uwharrie Ridge Six-Twelve,agrosch@randolph.k12.nc.us,,,http://www.randolph.k12.nc.us/schools/uwharrie/default.htm,Regular School,Public
+760388,Wheatmore High School,e2johnson@randolph.k12.nc.us,,,http://www.randolph.k12.nc.us/schools/whs/Pages/Default.aspx,Regular School,Public
+761304,Asheboro High School,bsaunders@asheboro.k12.nc.us,,,http://ahs.asheboro.k12.nc.us,Regular School,Public
+76A000,Uwharrie Charter Academy,heather_soja@uwharriecharter.org,Van2_Hurley@uwharriecharter.org,Drew_Fortune@UwharrieCharter.org,http://www.uwharriecharter.org,Regular School,Charter
+770348,Richmond Senior High School,jamesbutler@richmond.k12.nc.us,ginnysellers@richmond.k12.nc.us,donnagephart@richmond.k12.nc.us,http://www.richmond.k12.nc.us/rshsweb/index.html,Regular School,Public
+770349,Richmond Early College High School,tonyawaddell@richmond.k12.nc.us,michellebutler@richmond.k12.nc.us, jenniferbyrd@richmond.k12.nc.us,http://rech.richmondk12.org/,Regular School,Public
+780325,Fairmont High,ronald.prater@robeson.k12.nc.us,lewiscy.fhs@robeson.k12.nc.us ,felicia.ivey@robeson.k12.nc.us,http://www.robeson.k12.nc.us/schools.cfm?id=fhs&SchoolID=325,Regular School,Public
+780342,Lumberton Senior High,larry.obeda@robeson.k12.nc.us,jeremy.demery@robeson.k12.nc.us,sonya.hunt@robeson.k12.nc.us,http://www.robeson.k12.nc.us/schools.cfm?id=lshs&schoolid=342,Regular School,Public
+780385,PSRC Early College at RCC,virginia.emanuel@robeson.k12.nc.us,meropi.hawkins@robeson.k12.nc.us,shitan.jones@robeson.k12.nc.us,-,Regular School,Public
+780391,Red Springs High,larry.brooks@robeson.k12.nc.us,stephen.bullard@robeson.k12.nc.us,,http://www.robeson.k12.nc.us/schools.cfm?id=rshs&schoolid=391,Regular School,Public
+780401,Saint Pauls High,christopher.suggs@robeson.k12.nc.us,,  phillip.tyler@robeson.k12.nc.us,http://www.robeson.k12.nc.us/schools.cfm?id=sphs&schoolid=401,Regular School,Public
+780402,South Robeson High,christopher.clark@robeson.k12.nc.us,emhunt@live.unc.edu,jc.hunt@robeson.k12.nc.us,http://www.robeson.k12.nc.us/schools.cfm?id=srhs&schoolid=402,Regular School,Public
+780420,Purnell Swett High,clyde.leviner@robeson.k12.nc.us,mahetta.manning-comm@robeson.k12.nc.us,deborah.aringe@robeson.k12.nc.us,http://www.robeson.k12.nc.us/schools.cfm?id=swett&schoolid=420,Regular School,Public
+790314,Dalton McMichael High,ayoung@rock.k12.nc.us,rbrown2@rock.k12.nc.us,dbredamus@rock.k12.nc.us,http://www.rock.k12.nc.us/Dmhs/index.htm,Regular School,Public
+790354,John M Morehead High,aroyster@rock.k12.nc.us,dmoore-jessie@rock.k12.nc.us,ksteagall@rock.k12.nc.us,http://www.rock.k12.nc.us/Mhs/index.htm,Regular School,Public
+790366,Reidsville High,mmitchell@rock.k12.nc.us,mdaniels-chestnut@rock.k12.nc.us,marmstrong@rock.k12.nc.us,http://www.rock.k12.nc.us/Rhs/index.htm,Regular School,Public
+790378,Rockingham County High,ckemp@rock.k12.nc.us,cgriffin@rock.k12.nc.us ,mwilliams2@rock.k12.nc.us ,http://www.rock.k12.nc.us/Rchs/index.htm,Regular School,Public
+790379,Rockingham Co Early College High,kmoney@rock.k12.nc.us,grichardson@rock.k12.nc.us ,vabbott@rock.k12.nc.us ,-,Regular School,Public
+800340,East Rowan High School,Tonya.BrinegarGerman@rss.k12.nc.us,Tracy.Larson@rss.k12.nc.us ,Kirsten.Anderson@rss.k12.nc.us,http://erhs.rss.k12.nc.us,Regular School,Public
+800361,Jesse C Carson High School,Angelo.Dellisanti@rss.k12.nc.us,Carol.Houpe@rss.k12.nc.us,,http://jchs.rss.k12.nc.us,Regular School,Public
+800376,North Rowan High School,Meredith.Williams@rss.k12.nc.us,Debra.McBride@rss.k12.nc.us,Lydia.Allen@rss.k12.nc.us,http://nrhs.rss.k12.nc.us,Regular School,Public
+800394,Rowan County Early College,Patrick.Hosey@rss.k12.nc.us,Jennifer.Shermer@rss.k12.nc.us ,Kevin.Aycock@rss.k12.nc.us ,http://rcec.rss.k12.nc.us,Regular School,Public
+800396,Salisbury High School,Luke.Brown@rss.k12.nc.us,,,http://shs.rss.k12.nc.us,Regular School,Public
+800400,South Rowan High School,Kelly.Withers@rss.k12.nc.us,Melanie.McCulloh@rss.k12.nc.us ,davisjd@rss.k12.nc.us,http://srhs.rss.k12.nc.us,Regular School,Public
+800408,West Rowan High School,Jamie.Durant@rss.k12.nc.us,,,http://wrhs.rss.k12.nc.us,Regular School,Public
+810324,Chase High School,kbradley@rcsnc.org,"Click ""email CHS administration"" http://chs.rcsnc.org/contact_school",bcarroll@rcsnc.org,http://chs.rcsnc.org,Regular School,Public
+810340,East Rutherford High School,ttorvinen@rcsnc.org,scotth@rcsnc.org,"Click ""contact me"" on left: http://erhs.rcsnc.org/departments/social_studies/tom_anderson/",http://erhs.rcsnc.org/,Regular School,Public
+810384,R-S Central High School,progers@rcsnc.org,pcline@rcsnc.org,tbenton@rcsnc.org,http://rschs.rcsnc.org/,Regular School,Public
+810385,Rutherford Early College High School,jsmcclun@rcsnc.org,not on website: receptionist name is Sherry Fowler. Ph: 395-4190,email through website: http://reach.rcsnc.org/faculty___staff_pages/angel_ledbetter_-_social_studies_/contact_me,http://reach.rcsnc.org/,Regular School,Public
+81A000,Thomas Jefferson Classical Academy: A Challenge Foundation A,jmaimone@tjca.org,,,http://www.tjca.teamcfa.school,Regular School,Charter
+81B000,Lake Lure Classical Academy,tkeever@llca.school,lbarnes@llca.school,ahutchins@llca.school,http://www.llca.teamcfa.school,Regular School,Charter
+820324,Sampson Early College High,swesterbeek@sampson.k12.nc.us,,,http://www.sampson.k12.nc.us/sechs,Regular School,Public
+820348,Hobbton High,jdaughtry@sampson.k12.nc.us,,,http://www.sampson.k12.nc.us/HobbtonHigh/,Regular School,Public
+820349,Lakewood High,jgoode@sampson.k12.nc.us,,,http://www.sampson.k12.nc.us/LakewoodHigh/,Regular School,Public
+820352,Midway High,montys@sampson.k12.nc.us,,,http://www.sampson.k12.nc.us/MidwayHigh/,Regular School,Public
+820388,Union High,julieh@sampson.k12.nc.us,,,http://www.sampson.k12.nc.us/unionhigh,Regular School,Public
+821308,Clinton High,smiller@clinton.k12.nc.us,tojohnson@clinton.k12.nc.us,list of emails but does not specify who teaches what http://chs.clinton.k12.nc.us/staff-directories,http://chs.clinton.k12.nc.us,Regular School,Public
+830343,Scotland High School,bedkins@scotland.k12.nc.us,,,-,Regular School,Public
+830348,Scotland Early College High,ppeed@scotland.k12.nc.us,rsunderland@scotland.k12.nc.us,mbrooks@scotland.k12.nc.us,-,Regular School,Public
+830349,Spring Hill Middle,plewis@scotland.k12.nc.us,akingston@scotland.k12.nc.us,list of emails but does not specify who teaches what http:https://www.sampson.k12.nc.us//site/default.aspx?PageType=2&PageModuleInstanceID=2964&ViewID=d23c305b-e295-4186-9257-b05a61f233d9&RenderLoc=0&FlexDataID=0&Filter=Site%3ASampson%20Early%20College%20High%20School,http://www.scotland.k12.nc.us/schools/springhill/default.htm,Regular School,Public
+840302,Albemarle High School,toby.mclaurin@stanlycountyschools.org,,emily.lloyd@stanlycountyschools.org,http://ahs.stanlycountyschools.org,Regular School,Public
+840332,North Stanly High School,joy.hathcock@stanlycountyschools.org,toby.richardson@stanlycountyschools.org,amy.mills@stanlycountyschools.org,http://www.nshs.stanlycountyschools.org,Regular School,Public
+840356,South Stanly High School,tanya.crisco@stanlycountyschools.org,Leslie.Carrigan@stanlycountyschools.org,Ashley.Carter@stanlycountyschools.org,http://www.sshs.stanlycountyschools.org,Regular School,Public
+840361,Stanly Early College High School,kevin.adams@stanlycountyschools.org,donna.carrothers@ stanlycountyschools.org,marina.shankle@stanlycountyschools.org,http://www.echs.stanlycountyschools.org,Regular School,Public
+840368,West Stanly High School,Kim.Page@stanlycountyschools.org,tammy.jones@stanlycountyschools.org,brett.morton@stanlycountyschools.org,http://www.wshs.stanlycountyschools.org,Regular School,Public
+84B000,Gray Stone Day School,hnance@graystoneday.org,send email through website. This is admin staff contact list: http://www.graystoneday.org/about/administration,list of emails but does not specify who teaches what http://www.graystoneday.org/academics/staff_directory/,http://www.graystoneday.org,Regular School,Charter
+850332,North Stokes High,nathan.rasey@stokes.k12.nc.us,Christina.Mitchell@stokes.k12.nc.us,Morgan.Southern@stokes.k12.nc.us,http://www.north.stokes.k12.nc.us/,Regular School,Public
+850352,South Stokes High,johnna.cheek@stokes.k12.nc.us,cindy.mitchell@stokes.k12.nc.us,shiela.patterson@stokes.k12.nc.us,http://www.south.stokes.k12.nc.us/,Regular School,Public
+850358,West Stokes High,kevin.spainhour@stokes.k12.nc.us,No email listed for Katie Tedder ,jordan.jessup@stokes.k12.nc.us,http://www.west.stokes.k12.nc.us/,Regular School,Public
+850360,Stokes Early College High School,misti.holloway@stokes.k12.nc.us,nancy.smith@stokes.k12.nc.us,patrick.minges@stokes.k12.nc.us,http://www.earlycollege.stokes.k12.nc.us/,Regular School,Public
+860316,East Surry High School,sawyersl@surry.k12.nc.us,freemansha@surry.k12.nc.us,hartw@surry.k12.nc.us,http://www.surry.k12.nc.us/,Regular School,Public
+860336,North Surry High School,badgettp@surry.k12.nc.us,hutchensa@surry.k12.nc.us,butlerc@surry.k12.nc.us,http://www.surry.k12.nc.us/,Regular School,Public
+860352,Surry Central High School,hodgesc@surry.k12.nc.us,prattj@surry.k12.nc.us,cornettt@surry.k12.nc.us,http://www.surry.k12.nc.us,Regular School,Public
+860354,Surry Early College High School of Design,flippena@surry.k12.nc.us,email through website https://surry.edu/contact,stewartc@surry.edu,http://www.surry.k12.nc.us,Regular School,Public
+861308,Elkin High School,hoylej@elkin.k12.nc.us,shepherdD@elkin.k12.nc.us,lloydP@elkin.k12.nc.us,http://elkin.k12.nc.us/ehs/,Regular School,Public
+862312,Mount Airy High,sgeorge@mtairy.k12.nc.us,email through website: https://surry.edu/call-us/faculty-and-staff-directory,email through website: http://www.mahsbears.org/apps/email/index.jsp?e=1238120212081226123812221208124811341224123812001216123412481098122011041106109812261204109812401236&n=Tyler%20Bentley,http://mahsbears.org,Regular School,Public
+86T000,Millennium Charter Academy,kirbymccrary@mcacademy.com,mca@mcacademy.com,madisonfregia@mcacademy.com,http://www.mcacademy.com/,Regular School,Charter
+870312,Cherokee Extension School,mtreadway@swainmail.org,,,-,Regular School,Other
+870314,Swain County High School,msale@swainmail.org,,bclemens@swainmail.org,http://www.swain.k12.nc.us/high,Regular School,Public
+880308,Brevard High,babernethy@tcsnc.org,traines@tcsnc.org, jhogan@tcsnc.org,http://bhs.tcsnc.org/,Regular School,Public
+880328,Rosman High,jormsby@tcsnc.org,jchmelar@tcsnc.org,tmelvin@tcsnc.org,http://rhs.tcsnc.org/,Regular School,Public
+890304,Columbia Early College/High School,myancey@tycomail.net,no emails provided on website.,,http://chs.tyrrell.k12.nc.us/,Regular School,Public
+900311,Cuthbertson High School,kim.schroeder@ucps.k12.nc.us, kim.helms@ucps.k12.nc.us, dustin.allen@ucps.k12.nc.us,http://chs.ucps.k12.nc.us,Regular School,Public
+900316,Forest Hills High School,kevin.plue@ucps.k12.nc.us, amy.nance@ucps.k12.nc.us, justin.giersbrook@ucps.k12.nc.us,http://fhhs.ucps.k12.nc.us/,Regular School,Public
+900336,Monroe High School,michael.harvey@ucps.k12.nc.us, shelby.beltran@ucps.k12.nc.us, debra.rhoades@ucps.k12.nc.us,http://mhs.ucps.k12.nc.us/,Regular School,Public
+900342,Porter Ridge High School,bashawn.harris@ucps.k12.nc.us, antonio.bundick@ucps.k12.nc.us, sharon.baker@ucps.k12.nc.us,http://prhs.ucps.k12.nc.us,Regular School,Public
+900344,Parkwood High School,carole.alley@ucps.k12.nc.us, angela.reeder@ucps.k12.nc.us, vinson.covington@ucps.k12.nc.us,http://pwhs.ucps.k12.nc.us,Regular School,Public
+900348,Piedmont High School,jonathan.tyson@ucps.k12.nc.us, kim.adkins@ucps.k12.nc.us, vicki.braswell@ucps.k12.nc.us,http://pmhs.ucps.k12.nc.us,Regular School,Public
+900360,Sun Valley High School,ray.singletary@ucps.k12.nc.us, pam.bland@ucps.k12.nc.us, johnny.baker@ucps.k12.nc.us,http://svhs.ucps.k12.nc.us/,Regular School,Public
+900366,Central Academy of Technology and Arts,kim.fisenne@ucps.k12.nc.us, andrea.nahum@ucps.k12.nc.us, laura.hibberd@ucps.k12.nc.us,http://cata.ucps.k12.nc.us/,Regular School,Public
+900367,Union County Early College,stephanie.mcmanus@ucps.k12.nc.us, sylvia.roldan@ucps.k12.nc.us, melissa.cook@ucps.k12.nc.us,http://ucec.ucps.k12.nc.us,Regular School,Public
+900377,Weddington High School,jay.jones@ucps.k12.nc.us, melinda.price@ucps.k12.nc.us, ron.bays@ucps.k12.nc.us,http://wdhs.ucps.k12.nc.us/,Regular School,Public
+900393,Marvin Ridge High School,donna.cook@ucps.k12.nc.us, angela.baker@ucps.k12.nc.us, robert.branan@ucps.k12.nc.us,http://mrhs.ucps.k12.nc.us,Regular School,Public
+90A000,Union Academy Charter School,awalters@unionacademy.org,email through website: http://www.unionacademy.org/apps/contact/,tfaulkner@unionacademy.org,http://www.unionacademy.org/,Regular School,Charter
+910364,Southern Vance High School,rhorner@vcs.k12.nc.us,,,https://www.vcs.k12.nc.us/svhs,Regular School,Public
+910370,Northern Vance High School,amarkoch@vcs.k12.nc.us,ebates@vcs.k12.nc.us,sdunbar@vcs.k12.nc.us,https://www.vcs.k12.nc.us/nvhs,Regular School,Public
+910382,Vance County Early College High School,dhite@vcs.k12.nc.us,,,https://www.vcs.k12.nc.us/vancecountyearlycollege,Regular School,Public
+91A000,Vance Charter School,connollys@vancecharter.org,matthewsr@vancecharter.org,goswickd@vancecharter.org,http://www.vancecharter.org/,Regular School,Charter
+91B000,Henderson Collegiate,esanchez@hendersoncollegiate.org,Info@HendersonCollegiate.org,Jjohnson@hendersoncollegiate.org,http://hendersoncollegiate.org,Regular School,Charter
+920316,Apex High,dkearney@wcpss.net,ltomlinson@wcpss.net,aoltmans@wcpss.net,http://apexhs.wcpss.net/,Regular School,Public
+920317,Apex Friendship High,mwight@wcpss.net,sconcordia@wcpss.net,dallen2@wcpss.net,http://www.wcpss.net/apexfriendshiphs,Regular School,Public
+920318,Athens Drive High,smares@wcpss.net,no email available for Kim Acord,bharrington1@wcpss.net,http://athensdrivehs.wcpss.net/,Regular School,Public
+920348,Needham Broughton High,eashburn@wcpss.net,eashburn@wcpss.net,jabbott2@wcpss.net,http://broughton.wcpss.net/,Regular School,Public
+920368,Cary High,jnbryant@wcpss.net,aboshoff@wcpss.net,sboyer@wcpss.net ,http://caryhs.wcpss.net/,Regular School,Public
+920386,Crossroads FLEX,krichardson@wcpss.net,chewitt@wcpss.net,kturcol@wcpss.net,http://www.wcpss.net/crossroadsflexhs,Regular School,Public
+920411,East Wake High School,salston3@wcpss.net,awebb@wcpss.net,cvestal@wcpss.net,http://www.wcpss.net/eastwakehs,Regular School,Public
+920412,William G Enloe High,wchavis2@wcpss.net,karcher@wcpss.net,kshanahan@wcpss.net,http://enloehs.wcpss.net/,Regular School,Public
+920428,Fuquay-Varina High,jenns@wcpss.net,gkuhn@wcpss.net,rbarrow@wcpss.net,http://fvhs.wcpss.net/,Regular School,Public
+920436,Garner High,chillman2@wcpss.net,cingle@wcpss.net,jabruzzese@wcpss.net,http://garnerhs.wcpss.net/,Regular School,Public
+920441,Green Hope High,ksummers@wcpss.net,gscelsi@wcpss.net,raymes@wcpss.net,http://greenhopehigh.wcpss.net/,Regular School,Public
+920445,Heritage High School,slyons@wcpss.net,eabshire@wcpss.net,tatkinson@wcpss.net,http://heritagehs.wcpss.net/,Regular School,Public
+920455,Holly Springs High,bpittman@wcpss.net,ldavis4@wcpss.net,aanderson@wcpss.net,http://www.wcpss.net/hollyspringshs,Regular School,Public
+920466,Knightdale High,jargent@wcpss.net ,lmclamb1@wcpss.net,mchildress@wcpss.net,http://knightdalehs.wcpss.net/,Regular School,Public
+920473,Leesville Road High,amuttillo@wcpss.net,jhaunsperger@wcpss.net,cbatten1@wcpss.net,http://www.wcpss.net/leesvilleroadhs,Regular School,Public
+920495,Middle Creek High,wmartin@wcpss.net,awoynicz@wcpss.net,rathur@wcpss.net,http://middlecreekhs.wcpss.net,Regular School,Public
+920500,Millbrook High,dking@wcpss.net,jdrabot@wcpss.net,dadams@wcpss.net,http://mhs.wcpss.net/,Regular School,Public
+920518,North Wake College and Career Academy,ebattle@wcpss.net,anlee@wcpss.net,lbrothers@wcpss.net,http://www.wcpss.net/northwakecca,Regular School,Public
+920526,Panther Creek High,chedrick@wcpss.net,ddavis2@wcpss.net,mbilodeau@wcpss.net,http://panthercreekhs.wcpss.net/,Regular School,Public
+920546,Rolesville High School,dlassiter@wcpss.net,pdavenport@wcpss.net,cyaccarino@wcpss.net,http://www.wcpss.net/rolesvillehs,Regular School,Public
+920552,Sanderson High,gdecker@wcpss.net,gkentopp@wcpss.net,mcarle@wcpss.net,http://sandersonhs.wcpss.net/,Regular School,Public
+920562,Southeast Raleigh High,ssmith26@wcpss.net,rjones3@wcpss.net,lthrower@wcpss.net,http://www.wcpss.net/southeastraleighhs,Regular School,Public
+920581,Vernon Malone College and Career Academy,astotsenberg@wcpss.net,ahallberg@wcpss.net,amitchell6@wcpss.net,http://www.wcpss.net/vernonmalonecca,Regular School,Public
+920582,Wake STEM Early College High School,dschwenker@wcpss.net,rjackson1@wcpss.net,abagwell@wcpss.net,http://stemec.wcpss.net,Regular School,Public
+920583,Wake Early College of Health and Science,lcummings@wcpss.net,dpoole2@wcpss.net,djones9@wcpss.net,http://healthscienceec.wcpss.net/,Regular School,Public
+920585,Wake Young Men's Leadership Academy,isolomon@wcpss.net,tbranch@wcpss.net ,efarkas@wcpss.net ,http://www.wcpss.net/wakeyoungmen,Regular School,Public
+920586,Wake Young Women's Leadership Academy,cjernigan-baker@wcpss.net,kdicarlo@wcpss.net,dtrout@wcpss.net,http://www.wcpss.net/wywla,Regular School,Public
+920588,Wake Forest High School,phamler@wcpss.net,bnbaker@wcpss.net,ybridges@wcpss.net,http://www.wcpss.net/wakeforesths,Regular School,Public
+920595,Wakefield High,rbazzell@wcpss.net,jalston2@wcpss.net,syosef@wcpss.net,http://www.wcpss.net/wakefieldhs,Regular School,Public
+92F000,Franklin Academy,kentd@franklinacademy.org,bennettd@FranklinAcademy.org,BakerD@FranklinAcademy.org,http://www.franklinacademy.org/,Regular School,Charter
+92G000,East Wake Academy,sgay@eastwakeacademy.org,,,http://www.eastwakeacademy.org/,Regular School,Charter
+92K000,Raleigh Charter High School,lhuddleston@raleighcharterhs.org,lhash@raleighcharterhs.org,sklein@raleighcharterhs.org,http://www.raleighcharterhs.org,Regular School,Charter
+92P000,Southern Wake Academy,dthomas@swake.org,twatson@swake.org,bblankenship@swake.org,http://swake.org,Regular School,Charter
+92T000,Triangle Math and Science Academy,mkara@tmsacademy.org,mwood@tmsacademy.org,awall@tmsacademy.org,http://www.tmsacademy.org/,Regular School,Charter
+92U000,Longleaf School of the Arts,davis@longleafschool.com,office@longleafschool.com,mercado@longleafschool.com,http://longleafschool.com,Regular School,Charter
+930352,Warren County High,lhopkins@warrenk12nc.org,siwilliams@warrenk12nc.org,cbmoody@warrenk12nc.org,http://www.warrenk12nc.org/schools.php?id=7,Regular School,Public
+930360,Warren Early College High,tneal@warrenk12nc.org,amayo@warrenk12nc.org,amogilevsky@warrenk12nc.org,http://www.warrenk12nc.org/schools.php?id=13,Regular School,Public
+930700,Warren New Tech High School,jwilker@warrenk12nc.org,lbratcher@warrenk12nc.org,sgregoire@warrenk12nc.org,http://www.warrenk12nc.org/schools.php?id=12,Regular School,Public
+93A000,Haliwa-Saponi Tribal School,warren.bell@hstsedu.org,admin@hstsedu.org,,http://hstsedu.org/,Regular School,Charter
+93L000,Central Wake Charter High School,Tom.Hanley@als-education.com,email through website: https://centralwakehs.com/contact,,http://centralwakehs.com,Regular School,Charter
+940308,Creswell High,gboston@wcsnc.org,cmoore@wcsnc.org,sarnold@wcsnc.org,http://www.edline.net/pages/4567782012449720114,Regular School,Public
+940316,Plymouth High,scherry@wcsnc.org,kbarber@wcsnc.org,,http://www.edline.net/pages/Plymouth_High_School,Regular School,Public
+940330,Washington Co Early College High School,tgallop@wcsnc.org,tgill@wcsnc.org,,www.wcsnc.org,Regular School,Public
+94Z000,Northeast Regional School of Biotechnology and Agriscience,hdavis@neregionalschool.org,ispruill@neregionalschool.org,bmodlin@neregionalschool.org,http://www.neregionalschool.org,Vocational Education,Regional
+950336,Watauga High,blantonc@wataugaschools.org,StarkT@wataugaschools.org,CombsR@wataugaschools.org,www.watauga.k12.nc.us/whs,Regular School,Public
+960324,Charles B. Aycock High School,earlmoore@wcps.org,,myrabrooks@wcps.org,http://www.waynecountyschools.org/,Regular School,Public
+960330,Eastern Wayne High School,leejohnson@wcps.org,No email listed for Mrs. J. Baker,craighassell@wcps.org,http://www.waynecountyschools.org/,Regular School,Public
+960335,Goldsboro High School,marciamanning@wcps.org,,vincentdinges@wcps.org,http://www.waynecountyschools.org/,Regular School,Public
+960372,Rosewood High School,karenrogers@wcps.org,,Edwardmaldonado@wcps.org,http://www.waynecountyschools.org/,Regular School,Public
+960380,Southern Wayne High School,thomassmith@wcps.org,no email for Carla Pigg,email through website: http://swh380.waynecountyschools.org/classroom_websites/social_studies_department/social_studies_-_brookie_cummings/contact_me/,http://www.waynecountyschools.org/,Regular School,Public
+960386,Spring Creek High School,stephenclingan@wcps.org,hopemonterone@wcps.org,laurenpaxinos@wcps.org ,http://waynesch.ss8.sharpschool.com/,Regular School,Public
+960490,Wayne Early / Middle College High School,fredaallen@wcps.org,email through website: http://wemchs490.waynecountyschools.org/information/information/contact_information,patrickbreshears@wcps.org ,http://www.waynecountyschools.org/,Regular School,Public
+960700,Wayne School of Engineering at Goldsboro High School,garyhales@wcps.org,,bethanystewart@wcps.org,http://www.waynecountyschools.org/,Regular School,Public
+970320,East Wilkes High,weathermanj@wilkes.k12.nc.us,holbrooa@wilkes.k12.nc.us,robinsonh@wilkes.k12.nc.us,http://ewhs.wilkescountyschools.org/,Regular School,Public
+970356,North Wilkes High,joineslisa@wilkes.k12.nc.us,email through website: http://nwhs.wilkescountyschools.org/apps/email/index.jsp?e=738974037397739774037419737574237411737573097419739173977395738374117273739572797281727374017379727374157411&n=Sarah%20Holloway,email through website: http://nwhs.wilkescountyschools.org/apps/email/index.jsp?e=7387740973837383740173837399739173097419739173977395738374117273739572797281727374017379727374157411&n=Michael%20Greene,http://nwhs.wilkescountyschools.org/,Regular School,Public
+970388,West Wilkes High,johnsond@wilkes.k12.nc.us,email through website: http://wwhs.wilkescountyschools.org/apps/contact/,churcha@wilkes.k12.nc.us,http://wwhs.wilkescountyschools.org/,Regular School,Public
+970390,Wilkes Central High,stocksd@wilkes.k12.nc.us,email through website: http://wchs.wilkescountyschools.org/apps/contact/,email through website: http://wchs.wilkescountyschools.org/apps/email/index.jsp?e=7385741574097409737573097419739173977395738374117273739572797281727374017379727374157411&n=Adam%20Furr,http://wchs.wilkescountyschools.org/,Regular School,Public
+970393,Wilkes Early College High School,shepherm@wilkes.k12.nc.us,darnellj@wilkes.k12.nc.us,byersan@wilkes.k12.nc.us,http://wechs.wilkescountyschools.org/,Regular School,Public
+980318,Beddingfield High,fate.franks@wilsonschoolsnc.net,email through website: http://beddingfieldhigh.nc.wch.schoolinsites.com/Common/Email/Email.asp?UserID=383380&SchoolID=6520&CC=,email through website: http://beddingfieldhigh.nc.wch.schoolinsites.com/Common/Email/Email.asp?UserID=307493&SchoolID=6520,http://beddingfieldhigh.nc.wch.schoolinsites.com/,Regular School,Public
+980336,Fike High,randy.stclair@wilsonschoolsnc.net,email through website: http://rhs.randolph.k12.nc.us/?PageName=%27Bio%27&StaffID=%27326076%27,email through website: http://fikehigh.nc.wch.schoolinsites.com/?PageName=TeacherPage&Page=13&StaffID=288310&iSection=Teachers&CorrespondingID=288310,http://fikehigh.nc.wch.schoolinsites.com/,Regular School,Public
+980342,James Hunt High,eddie.doll@wilsonschoolsnc.net,email through website: http://nwhs.wilkescountyschools.org/apps/email/index.jsp?e=738974037397739774037419737574237411737573097419739173977395738374117273739572797281727374017379727374157411&n=Sarah%20Holloway,email through website: http://hunthigh.nc.wch.schoolinsites.com/?PageName=TeacherPage&Page=1&StaffID=346083&iSection=Teachers&CorrespondingID=346083,http://hunthigh.nc.wch.schoolinsites.com/,Regular School,Public
+980397,Wilson Academy of Applied Technology,krystal.cox@wilsonschoolsnc.net,email through website: http://appliedtechnology.nc.wce.schoolinsites.com/?PageName=%27Bio%27&StaffID=%27381645%27,email through website: http://appliedtechnology.nc.wce.schoolinsites.com/?PageName=TeacherPage&Page=16&StaffID=386959&iSection=Teachers&CorrespondingID=386959,http://appliedtechnology.nc.wce.schoolinsites.com/,Regular School,Public
+980398,Wilson Early College Academy,nelson.johnston@wilsonschoolsnc.net,email through website: http://wilsonearlycollegeacademy.nc.wca.schoolinsites.com/?PageName=%27Bio%27&StaffID=%27311643%27,Kimberly.smith@wilsonschoolsnc.net,http://wilsonearlycollegeacademy.nc.wca.schoolinsites.com/,Regular School,Public
+98B000,Wilson Preparatory Academy,dwoodard@wilsonprep.org,k.arizpe@wilsonprep.net,,http://www.wilsonprep.org,Regular School,Charter
+990304,Boonville Elementary,annette.johnson@yadkin.k12.nc.us,email through website: http://bes.yadkin.k12.nc.us/apps/contact/,email through website: http://bes.yadkin.k12.nc.us/apps/email/index.jsp?e=73937415739773917383727373997403742173977383742373097423737573817395739174017273739572797281727374017379727374157411&n=JULIE%20MOXLEY,-,Regular School,Public
+990322,Forbush High,robert.kennedy@yadkin.k12.nc.us,does not say who teaches what: http://fhs.yadkin.k12.nc.us/apps/staff/,,http://www.yadkin.k12.nc.us/schools/FHS/Opening.html,Regular School,Public
+990326,Starmount High,cody.hemric@yadkin.k12.nc.us,email through website: http://shs.yadkin.k12.nc.us/apps/email/index.jsp?e=7399738373977375740173917383727374117413739374037389740173097423737573817395739174017273739572797281727374017379727374157411&n=Melanie%20St.%20John,email through website: http://shs.yadkin.k12.nc.us/apps/email/index.jsp?e=7393738374097383739974237273738574157401738173837409737774157409739573097423737573817395739174017273739572797281727374017379727374157411&n=Jeremy%20Funderburk,http://www.yadkin.k12.nc.us/schools/shs/index.html,Regular School,Public
+990332,Yadkin Early College,tracy.kimmer@yadkin.k12.nc.us,robin.shore@yadkin.k12.nc.us,blake.johnson@yadkin.k12.nc.us,-,Regular School,Public
+995330,Mountain Heritage High,kmhuskins@yanceync.net,email through website: http://ysa.yadkin.k12.nc.us/apps/email/index.jsp?e=73797389738374097423739772737389741574137379738973837401741173097423737573817395739174017273739572797281727374017379727374157411&n=Cheryl%20Hutchens,email through website: http://ysa.yadkin.k12.nc.us/apps/email/index.jsp?e=7399740374017391737973757273737774237409738173097423737573817395739174017273739572797281727374017379727374157411&n=Monica%20Byrd,http://www.mhhs.yanceync.net/,Regular School,Public

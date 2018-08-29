@@ -1,0 +1,152 @@
+---
+title: "HSteacher"
+author: "Chenyang James Wang"
+co-author: "Donghun Louis Lee"
+date: 02/28/2018"
+output:
+  html_document: default
+  pdf_document: default
+
+---
+```{r global_options, include=FALSE, results='asis'}
+
+```
+
+inta
+```{r setup, include=FALSE}
+#setwd("~/Dropbox/BassConnectionsRAs/HS Survey/")
+library(raster)
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(stringr)
+library(descr) 
+library(foreign)
+library(haven)
+library(knitr)
+#hs = read_csv("1HSPrincipals_012218.csv")
+# hs = haven::read_spss("HSPrincipals_01292018.sav")
+#hs_labeled= read.csv("High+School+Civic+Indicators+-+Principals_February+24%2C+2018_14.45.csv", stringsAsFactors = T,na.strings = "")
+hs_labeled= read_csv("High+School+Civic+Indicators+-+Principals_February+24%2C+2018_14.45.csv")
+hs=hs_labeled[3:nrow(hs_labeled),]
+hs=hs_labeled[-c(2),]
+View(hs)
+```
+
+### Student government voting categorization
+```{r}
+
+# hs$stugov_vote %>% table()
+hs$stugov_vote_categorized <- NA
+# very good: 95 +
+hs$stugov_vote_categorized[hs$stugov_vote >=95] <- "95+"
+# good : 90+
+hs$stugov_vote_categorized[hs$stugov_vote< 95 & hs$stugov_vote >=90 ] <- "90-95"
+# slightly good:85+
+hs$stugov_vote_categorized[hs$stugov_vote < 90 & hs$stugov_vote >=85] <- "85-89"
+# okay: 80+
+hs$stugov_vote_categorized[hs$stugov_vote < 85 & hs$stugov_vote >=80 ] <- "80-84"
+# improving: 75+
+hs$stugov_vote_categorized[hs$stugov_vote < 80 & hs$stugov_vote >=75 ] <- "75-79"
+# not good: <75
+hs$stugov_vote_categorized[hs$stugov_vote < 75 ] <- "<75"
+hs$stugov_vote_categorized[is.na(hs$stugov_vote)] <- "NA"
+
+hs$stugov_vote_categorized %>% table()
+```
+
+### all the one dim tables
+```{r}
+
+onetable = function(Q) {
+   x = table(Q[2:length(Q)],exclude = NULL, useNA = 'always') %>% prop.table() %>% round(2) 
+   countTable = table(Q[2:length(Q)],exclude = NULL, useNA = 'always')
+   names(dimnames(x)) <- Q[[1]]
+   y <- names(dimnames(x)) <- Q[[1]]
+   print (x) 
+   print(paste("total count =", margin.table(countTable)))
+}
+
+box_plot_new = function(Q) {
+   x<- table(Q[2:length(Q)],exclude = NULL, useNA = 'always') %>% prop.table() %>% round(2)
+   par(mar=c(7,4,4,0))
+   barplot(x, beside = TRUE,  ylab = "Responses", cex.names=0.7 , las=2, font.axis=2)
+   title(main= "Stugov_vote_categorized", cex.main = 0.8)
+}
+   
+Q1 = hs$stugov_vote_categorized
+Q1 %>% box_plot_new()
+
+prob_box_plot = function(Q) {
+   x = round(prop.table(table(Q[3:length(Q)],exclude = NULL, useNA = 'always')), 2)  
+   par(mar=c(7,4,4,0))
+   barplot(x, beside = TRUE, ylab = "Responses", cex.names=0.7 , las=2, font.axis=2)
+   title(main= Q[[1]][1], cex.main = 0.8)
+}
+
+#hs %>% names()
+
+hs1 = hs[,c(22:28, 34, 39, 52, 59, 64)] # ones with significance
+# label_na = function(z){replace(z, is.na(z), "NA")}
+# sapply(hs1, label_na)  
+#which(!hs1 %>% sapply(is.numeric)) # columns we take out
+#hs_numeric = hs1[,hs1 %>% sapply(is.numeric)]
+sapply(hs1, onetable)
+
+### hard coding
+prob_box_plot(hs$mock)
+prob_box_plot(hs$accommodations)
+prob_box_plot(hs$award)
+prob_box_plot(hs$`voting site`)
+prob_box_plot(hs$courses)
+prob_box_plot(hs$service)
+prob_box_plot(hs$volunteer)
+prob_box_plot(hs$regdrives)
+prob_box_plot(hs$reg_parents)
+prob_box_plot(hs$stugov)
+prob_box_plot(hs$parents_engaged)
+prob_box_plot(hs$public)
+#sapply(hs1, prob_box_plot)
+
+
+```
+###If need to include NA in barplot 
+```{r}
+# hs$regdrives[is.na(hs$regdrives)] <- "NA"
+# hs$reg_parents[is.na(hs$reg_parents)] <- "NA"
+# hs$volunteer[is.na(hs$volunteer)] <- "NA"
+# hs$service[is.na(hs$service)] <- "NA"
+# hs$courses[is.na(hs$courses)] <- "NA"
+# hs$`voting site`[is.na(hs$`voting site`)] <- "NA"
+# hs$award[is.na(hs$award)] <- "NA"
+# hs$accommodations[is.na(hs$accommodations)] <- "NA"
+# hs$public[is.na(hs$public)] <- "NA"
+# hs$parents_engaged[is.na(hs$parents_engaged)] <- "NA"
+# hs$stugov[is.na(hs$stugov)] <- "NA"
+```
+ 
+### Frequency table visualization
+```{r}
+# #How to make a function for barplot so I can just put variables and it will give me plot?
+# 
+# counts <- table(hs$stugov_vote_categorized)
+# counts %>% View()
+# barplot(counts, main="Student goverment voting %", 
+#   	xlab="Voting percentage")
+# 
+# #variables worth making visualization 
+# myvars <- hs[, c(hs$regdrives, hs$regdrives_org, hs$mock , hs$accommodations, hs$award, hs$courses, hs$service, hs$volunteer, hs$reg_parents, hs$newspaper)]
+# 
+# hs_select = hs %>% select(regdrives,regdrives_org,mock)
+# hs_barplot_list <- hs_labeled[myvars]
+# 
+# sapply(sapply(hs_select, table),barplot) # need to make variable to frequency table first. 
+
+```
+
+
+
+
+
+

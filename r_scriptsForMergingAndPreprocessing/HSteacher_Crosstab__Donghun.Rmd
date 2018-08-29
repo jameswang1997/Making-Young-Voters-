@@ -1,0 +1,112 @@
+---
+title: "HSteacher"
+author: "Chenyang James Wang"
+co-author: "Donghun Louis Lee"
+date: 22/28/2018"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+setwd("~/Dropbox/BassConnectionsRAs/HS Survey/")
+library(raster)
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(stringr)
+library(descr) 
+library(foreign)
+library(haven)
+library(knitr)
+#hs = read_csv("1HSPrincipals_012218.csv")
+# hs = haven::read_spss("HSPrincipals_01292018.sav")
+#hs_labeled= read.csv("High+School+Civic+Indicators+-+Principals_February+24%2C+2018_14.45.csv", stringsAsFactors = T,na.strings = "")
+hs_labeled= read_csv("High+School+Civic+Indicators+-+Principals_February+24%2C+2018_14.45.csv")
+hs=hs_labeled[3:nrow(hs_labeled),]
+View(hs)
+```
+
+### Student government voting categorization
+```{r}
+
+# hs$stugov_vote %>% table()
+hs$stugov_vote_categorized <- NA
+# very good: 95 +
+hs$stugov_vote_categorized[hs$stugov_vote >=95] <- "95+"
+# good : 90+
+hs$stugov_vote_categorized[hs$stugov_vote< 95 & hs$stugov_vote >=90 ] <- "90-95"
+# slightly good:85+
+hs$stugov_vote_categorized[hs$stugov_vote < 90 & hs$stugov_vote >=85] <- "85-89"
+# okay: 80+
+hs$stugov_vote_categorized[hs$stugov_vote < 85 & hs$stugov_vote >=80 ] <- "80-84"
+# improving: 75+
+hs$stugov_vote_categorized[hs$stugov_vote < 80 & hs$stugov_vote >=75 ] <- "75-79"
+# not good: <75
+hs$stugov_vote_categorized[hs$stugov_vote < 75 ] <- "<75"
+hs$stugov_vote_categorized[is.na(hs$stugov_vote)] <- "NA"
+
+hs$stugov_vote_categorized %>% table()
+```
+
+
+### Recoding hs$parents_engaged variable 
+```{r}
+hs$parents_engaged =
+  hs$parents_engaged %>% str_replace("Not that engaged", "Not that") %>% str_replace("Somewhat engaged", "Somewhat") %>% str_replace("Not at all engaged", "Not at all") %>% str_replace("Very engaged", "Very")
+```
+
+###CrossTab function
+```{r, echo =F}
+ct1 = function(x, y, xname = "X", yname = "Y", plot = F){
+  crosstab(x, y,
+           dnn = c(xname, yname),
+           prop.r = TRUE,
+           plot = plot, digits = 0, missing.include = FALSE, cell.layout = TRUE, drop.levels = TRUE)
+}
+
+#regdrive
+ct1(hs$public, hs$regdrives, xname= 'School', yname= 'regDrive', plot = F)
+### public school is definitely more engage in the regdrives,, but this is somewhat obvious. 
+
+#school
+ct1(hs$public, hs$courses, xname= 'School', yname= 'Civic Course Yes or No', plot = F)
+### charter school had more civic courses provided 
+
+#parents engagement
+ct1(hs$public, hs$parents_engaged, xname= 'School', yname= 'Parents Engage', plot = F)
+### charter school parents were much more engaged ----this seems significant 
+
+ct1(hs$stugov_vote_categorized, hs$parents_engaged, xname= 'Stugov Voting', yname= 'Parents Engage', plot = F) 
+### It seems there isn't correlation between engagement of parents and how students voted in the student government. 
+
+#stu gov participation rate
+ct1(hs$public, hs$stugov_vote_categorized, xname= 'School', yname= 'Student Vote', plot = F)
+### charter school had signifincantly higher participation rate
+
+ct1(hs$stugov_vote_categorized, hs$regdrives, xname= 'Stugov Voting', yname= 'Regrdrive', plot = F)
+
+ct1(hs$stugov_vote_categorized, hs$courses, xname= 'Stugov Voting', yname= 'Civic Courses Yes or No', plot = F)
+### providing civic courses does not have relationshp with stugov voting 
+
+#skill develop
+ct1(hs$public,hs$skilldevleop, xname= 'School', yname= 'Skill Develop', plot = F)
+### charter school had higher skill development 
+
+# public vs engagement : not too much difference
+ct1(hs$public, hs$engage_grid_1,  yname= 'Elected officials spoke at the school', xname= 'SchoolType', plot = F)
+ct1(hs$public, hs$engage_grid_2,  yname= 'Students wrote to elected officials', xname= 'SchoolType', plot = F)
+ct1(hs$public, hs$engage_grid_3 , yname= 'Students discussed (during class) actions taken by elected officials', xname= 'SchoolType', plot = F)
+
+```
+
+
+
+
+
+
+
+
+
+

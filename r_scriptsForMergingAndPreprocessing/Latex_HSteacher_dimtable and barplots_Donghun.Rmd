@@ -1,0 +1,126 @@
+---
+title: "HSteacher"
+author: "Chenyang James Wang"
+co-author: "Donghun Louis Lee"
+date: 22/28/2018"
+output:
+  html_document: default
+  pdf_document: default
+
+---
+```{r global_options, include=FALSE, results='asis'}
+
+```
+
+inta
+```{r setup, include=FALSE}
+#setwd("~/Dropbox/BassConnectionsRAs/HS Survey/")
+library(raster)
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(stringr)
+library(descr) 
+library(foreign)
+library(haven)
+library(knitr)
+library(xtable)
+#hs = read_csv("1HSPrincipals_012218.csv")
+# hs = haven::read_spss("HSPrincipals_01292018.sav")
+#hs_labeled= read.csv("High+School+Civic+Indicators+-+Principals_February+24%2C+2018_14.45.csv", stringsAsFactors = T,na.strings = "")
+hs_labeled= read_csv("High+School+Civic+Indicators+-+Principals_February+24%2C+2018_14.45.csv")
+hs=hs_labeled[3:nrow(hs_labeled),]
+hs=hs_labeled[-c(1,2),]
+View(hs)
+```
+
+### Student government voting categorization
+```{r}
+
+# hs$stugov_vote %>% table()
+hs$stugov_vote_categorized <- NA
+# very good: 95 +
+hs$stugov_vote_categorized[hs$stugov_vote >=95] <- "95+"
+# good : 90+
+hs$stugov_vote_categorized[hs$stugov_vote< 95 & hs$stugov_vote >=90 ] <- "90-95"
+# slightly good:85+
+hs$stugov_vote_categorized[hs$stugov_vote < 90 & hs$stugov_vote >=85] <- "85-89"
+# okay: 80+
+hs$stugov_vote_categorized[hs$stugov_vote < 85 & hs$stugov_vote >=80 ] <- "80-84"
+# improving: 75+
+hs$stugov_vote_categorized[hs$stugov_vote < 80 & hs$stugov_vote >=75 ] <- "75-79"
+# not good: <75
+hs$stugov_vote_categorized[hs$stugov_vote < 75 ] <- "<75"
+hs$stugov_vote_categorized[is.na(hs$stugov_vote)] <- "NA"
+
+hs$stugov_vote_categorized %>% table()
+```
+
+### all the one dim tables
+```{r}
+
+onetable_xtable = function(Q) {
+   x = table(Q[1:length(Q)]) %>% prop.table() %>% round(2) 
+   a <- xtable(x)
+   print (a)
+   #names(dimnames(x)) <- Q[[1]]
+   #y <- names(dimnames(x)) <- Q[[1]]
+   #print(paste("total count =", margin.table(countTable)))
+}
+
+nafunction = function(a) {
+  a[is.na(a)] <- "NA"
+  return (a)
+}
+
+hs$stugov_vote_categorized %>% onetable_xtable()
+hs[[22]] %>% nafunction() %>% onetable_xtable()
+hs[[23]] %>% nafunction() %>% onetable_xtable()
+hs[[24]] %>% nafunction() %>% onetable_xtable()
+hs[[25]] %>% nafunction() %>% onetable_xtable()
+hs[[26]] %>% nafunction() %>% onetable_xtable()
+hs[[27]] %>% nafunction() %>% onetable_xtable()
+hs[[28]] %>% nafunction() %>% onetable_xtable()
+hs[[34]] %>% nafunction() %>% onetable_xtable()
+hs[[39]] %>% nafunction() %>% onetable_xtable()
+hs[[52]] %>% nafunction() %>% onetable_xtable()
+hs[[59]] %>% nafunction() %>% onetable_xtable()
+hs[[64]] %>% nafunction() %>% onetable_xtable()
+
+ct1 = function(x, y, xname = "X", yname = "Y", plot = F){
+  crosstab(x, y,
+           dnn = c(xname, yname),
+           prop.r = TRUE,
+           plot = plot, digits = 0, missing.include = FALSE, cell.layout = TRUE, drop.levels = TRUE)
+}
+
+#regdrive
+hs$public %>% nafunction()
+hs$regdrives %>% nafunction()
+hs$courses %>% nafunction()
+hs$parents_engaged %>% nafunction()
+hs$skilldevleop %>% nafunction()
+
+xtable(ct1(hs$public, hs$regdrives, xname= 'School', yname= 'regDrive', plot = F), caption = "School Type and regdrives?", label = "public school were more likely to be regdrives")
+
+xtable(ct1(hs$public, hs$courses, xname= 'School', yname= 'Civic Course Yes or No', plot = F), caption = "School type and courses", label = "charter school had more civic courses provided")
+
+#parents engagement
+xtable(ct1(hs$public, hs$parents_engaged, xname= 'School', yname= 'Parents Engage', plot = F), caption = "School Type and Engagement of parents", label = "charter school parents were much more engaged ")
+
+xtable(ct1(hs$stugov_vote_categorized, hs$parents_engaged, xname= 'Stugov Voting', yname= 'Parents Engage', plot = F), caption = "Student government voting and Engagement of parents", label = "no correlation")
+
+#stu gov participation rate
+xtable(ct1(hs$public, hs$stugov_vote_categorized, xname= 'School', yname= 'Student Vote', plot = F), caption = "School Type and student government voting", label = "charter school had signifincantly higher participation rate")
+
+xtable(ct1(hs$stugov_vote_categorized, hs$courses, xname= 'Stugov Voting', yname= 'Civic Courses Yes or No', plot = F), caption = "student government voting and courses provided", label = "No significant relationship" ) 
+#skill develop
+xtable(ct1(hs$public,hs$skilldevleop, xname= 'School', yname= 'Skill Develop', plot = F), caption = "School type and skill development", label = "charter school had higher skill development ")
+
+
+
+
+
+
+

@@ -1,0 +1,156 @@
+---
+title: "HSteacher"
+author: "Chenyang James Wang"
+co-author: "Donghun Louis Lee"
+date: 22/28/2018"
+output:
+  html_document: default
+  pdf_document: default
+
+---
+```{r global_options, include=FALSE, results='asis'}
+
+```
+
+inta
+```{r setup, include=FALSE}
+#setwd("~/Dropbox/BassConnectionsRAs/HS Survey/")
+library(raster)
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(stringr)
+library(descr) 
+library(foreign)
+library(haven)
+library(knitr)
+library(xtable)
+#hs = read_csv("1HSPrincipals_012218.csv")
+# hs = haven::read_spss("HSPrincipals_01292018.sav")
+#hs_labeled= read.csv("High+School+Civic+Indicators+-+Principals_February+24%2C+2018_14.45.csv", stringsAsFactors = T,na.strings = "")
+hs_labeled= read_csv("High+School+Civic+Indicators+-+Principals_February+24%2C+2018_14.45.csv")
+hs=hs_labeled[3:nrow(hs_labeled),]
+hs=hs_labeled[-c(1,2),]
+hs[hs == "-99"] <- "Ref"
+hs$public[hs$public == "Regional"] <- NA
+na.omit(hs)
+View(hs)
+```
+
+### all the one dim tables
+```{r}
+
+onetable_xtable = function(Q) {
+   x = table(Q[1:length(Q)]) %>% prop.table() %>% round(2) 
+   a <- xtable(x)
+   print (a)
+   #names(dimnames(x)) <- Q[[1]]
+   #y <- names(dimnames(x)) <- Q[[1]]
+   #print(paste("total count =", margin.table(countTable)))
+}
+
+nafunction = function(a) {
+  a[is.na(a)] <- "NA"
+  return (a)
+}
+hs$public %>% onetable_xtable()
+hs$stugov_vote_categorized %>% onetable_xtable()
+hs$mock %>% onetable_xtable()
+hs$accommodations %>% onetable_xtable()
+hs$award %>% onetable_xtable()
+hs$regdrives %>% onetable_xtable()
+
+ct1 = function(x, y, xname = "X", yname = "Y", plot = F){
+  crosstab(x, y,
+           dnn = c(xname, yname),
+           prop.r = TRUE,
+           plot = plot, digits = 0, missing.include = FALSE, cell.layout = TRUE, drop.levels = TRUE)
+}
+
+#regdrive
+# hs$public %>% nafunction()
+# hs$regdrives %>% nafunction()
+# hs$courses %>% nafunction()
+# hs$parents_engaged %>% nafunction()
+# hs$skilldevleop %>% nafunction()
+
+```
+###Boxplot
+```{r}
+
+hs$regdrives[hs$regdrives == "Ref"] <- NA 
+na.omit(hs$regdrives)
+
+#graph1: School Type and Registration Drives 
+data1 <- data.frame(School = c("Public", "Charter"), 
+            Regdrives = c(0.48, 0.27))
+data2 <- data.frame(Regdrives = c("48% - Count 73", "27% - Count 7"))
+data3 <- data.frame(count = c(73, 7))
+fourth_graph <- ggplot(data1, aes(x=School,y = Regdrives, fill = School)) +geom_bar(color = "black", stat = "identity") + xlab("School Type") + ylab("Percentage of Registration Drives") +geom_text(aes(label=data2$Regdrives), vjust=-0.3, size=3.5) +theme(axis.text=element_text(size=12), axis.title=element_text(size=12)) + theme(legend.position = c(0.2, 0.8)) + scale_y_continuous(labels=scales::percent) + scale_fill_manual(values=c("blue1", "darkolivegreen2"))
+ggsave("fourth_graph.png")
+
+
+#graph2: student government voting participation and school type
+hs$stugov_vote[hs$stugov_vote == "Ref"] <- NA
+s <- as.numeric(hs$stugov_vote)
+data2 <- data.frame(hs$public, s)
+data3 <- na.omit(data2)
+plot <- ggplot(data3, aes(hs.public, s, fill = hs.public)) + geom_boxplot(outlier.colour = "black") +  scale_fill_manual(values=c("blue1", "darkolivegreen2"))+ xlab("School Type") + ylab("Student government voting percentage") + stat_summary(fun.y = "mean", geom = "point", shape = 4, size = 2)
+ggsave("plot.png")
+
+
+###graph3: Parents engagement and regdrives 
+data1 <- data.frame(Parents_engaged = c("Engaged", "Not engaged"), 
+            with_regdrives = c(0.73, 0.27))
+data2 <- data.frame(Regdrives = c("73% - Count 55", "27% - Count 20"))
+third_graph <- ggplot(data1, aes(x=Parents_engaged,y = with_regdrives, fill = Parents_engaged)) +geom_bar(color = "black", stat = "identity") + xlab("Are Parents Engaged") + ylab("Percentage of Regdrives") +geom_text(aes(label=data2$Regdrives), vjust=-0.3, size=3.5) +theme(axis.text=element_text(size=12), axis.title=element_text(size=12)) + theme(legend.position = c(0.9, 0.9)) + scale_y_continuous(labels=scales::percent) + scale_fill_manual(values=c( "darkolivegreen2","blue1"))
+ggsave("third_graph.png")
+
+
+###graph4: SChool type and engaged parents 
+data1 <- data.frame(School = c("Public", "Charter"), 
+            Engaged = c(0.68, 0.88))
+data2 <- data.frame(Regdrives = c("68% - Count 99", "88% - Count 22"))
+second_graph<- ggplot(data1, aes(x=School,y = Engaged, fill = School)) +geom_bar(color = "black", stat = "identity") + xlab("School Type") + ylab("Percentage of Engaged Parents") +geom_text(aes(label=data2$Regdrives), vjust=-0.3, size=3.5) +theme(axis.text=element_text(size=12), axis.title=element_text(size=12)) + theme(legend.position = c(0.9, 0.9)) + scale_y_continuous(labels=scales::percent) + scale_fill_manual(values=c("blue1", "darkolivegreen2")) 
+
+ggsave("second_graph.png")
+
+###graph4
+data1 <- data.frame(Course_num = c("0","1","2","3","4","5"), 
+            Count = c(123, 28,30,18,7,5))
+data2 <- data.frame(Regdrives = c("58%", "13%", "14%", "9%", "3%", "2%"))
+first_graph <- ggplot(data1, aes(x=Course_num,y = Count, fill = Course_num)) +geom_bar(color = "black", stat = "identity") + xlab("Number of Civic Courses Provided") + ylab("Number of Schools") +geom_text(aes(label=data2$Regdrives), nudge_y = 3) +theme(axis.text=element_text(size=12), axis.title=element_text(size=12))+ theme(legend.position = "none") + scale_fill_manual(values=c("blue1", "darkolivegreen2", "darkolivegreen2","darkolivegreen2","darkolivegreen2", "darkolivegreen2"))
+
+first_graph
+ggsave("first_graph.png")
+```
+
+### Crosstabs for pdf
+```{r}
+xtable(ct1(hs$public, hs$regdrives, xname= 'School', yname= 'regDrive', plot = F), caption = "School Type and regdrives?", label = "public school were more likely to be regdrives")
+
+# xtable(ct1(hs$public, hs$courses, xname= 'School', yname= 'Civic Course Yes or No', plot = F), caption = "School type and courses", label = "charter school had more civic courses provided")
+
+#parents engagement
+xtable(ct1(hs$public, hs$parents_engaged, xname= 'School', yname= 'Parents Engage', plot = F), caption = "School Type and Engagement of parents", label = "charter school parents were much more engaged ")
+
+# xtable(ct1(hs$stugov_vote_categorized, hs$parents_engaged, xname= 'Stugov Voting', yname= 'Parents Engage', plot = F), caption = "Student government voting and Engagement of parents", label = "no correlation")
+
+#stu gov participation rate
+xtable(ct1(hs$public, hs$stugov_vote_categorized, xname= 'School', yname= 'Student Vote', plot = F), caption = "School Type and student government voting", label = "charter school had signifincantly higher participation rate")
+
+
+hs$parents_engaged[hs$parents_engaged == "Not at all engaged"] <- "Not engaged"
+hs$parents_engaged[hs$parents_engaged == "Not that engaged"] <- "Not engaged"
+hs$parents_engaged[hs$parents_engaged == "Somewhat engaged"] <- "Engaged"
+hs$parents_engaged[hs$parents_engaged == "Very engaged"] <- "Engaged"
+
+ct1(hs$regdrives, hs$parents_engaged, xname= 'regdrives', yname= 'Parents Engage', plot = F)
+
+```
+
+
+
+
+

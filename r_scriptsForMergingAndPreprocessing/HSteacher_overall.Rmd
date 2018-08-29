@@ -1,0 +1,240 @@
+---
+title: "HSteacher"
+author: "Chenyang James Wang"
+co-author: "Donghun Louis Lee"
+date: "1/28/2018"
+output: html_document 
+---
+
+```{r global_options, include=FALSE, results='asis'}
+```
+
+###This file is for overall cleaning 
+
+```{r setup, include=FALSE}
+#setwd("~/Dropbox/BassConnectionsRAs/HS Survey/")
+library(raster)
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(stringr)
+library(descr) 
+library(foreign)
+library(haven)
+#hs = read_csv("1HSPrincipals_012218.csv")
+# hs = haven::read_spss("HSPrincipals_01292018.sav")
+#hs_labeled= read.csv("High+School+Civic+Indicators+-+Principals_February+24%2C+2018_14.45.csv", stringsAsFactors = T,na.strings = "")
+hs_labeled= read_csv("High+School+Civic+Indicators+-+Principals_February+24%2C+2018_14.45.csv")
+hs=hs_labeled[3:nrow(hs_labeled),]
+#hs=hs_labeled[-c(2),]
+#View(hs_labeled)
+View(hs)
+```
+
+## Civic Courses list
+```{r, echo=FALSE}
+# tidy up the dataset
+hs1 = hs %>% gather(key = "key",
+              value="civicCourse", `civics courses_1`:`civics courses_5`) %>% arrange(IPAddress)
+
+hs1$civicCourse =
+  hs1$civicCourse %>% tolower() %>% str_replace_all("&", "and") %>% str_replace('gov ','government ') %>%
+  str_replace('econ ', "economics ") %>% str_replace("^ap ","") %>% str_replace('american', 'us') %>%
+  str_replace(".*government.*","government") # can i just call everything 'government' as 'government'?
+# hs1$civicCourse %>% table
+
+getDistinctCount = function(varName, sort = T){
+  var = varName %>% unique
+  var_sing = var[(var %>% str_detect(",")) == F]
+  m = matrix(ncol =2, nrow = length(var_sing))
+  for ( i in seq_along(var_sing)){
+    ct = varName %>% str_detect(var_sing[i]) %>% sum
+    m[i,]= c(var_sing[i], ct)
+  }
+  m1 = data.frame(choice = m[,1], ct = m[,2] %>% as.numeric())
+  if (sort) {
+    m1 = m1 %>% arrange(desc(ct))
+  }
+  m1
+}
+# df1 = getDistinctCount(hs1$civicCourse)
+# df1 %>% filter(!choice %in% c(-99,""))
+```
+##write plot
+```{r,echo=F}
+# getBar = function(varName, title){
+#   df1 = getDistinctCount(varName)
+#   lablist <- df1$choice
+#   # plot(a, main = title, ylim= c(0,15))
+#   barplot(df1$ct,horiz= F, main = title)
+#   text(1:nrow(df1), par("usr")[1], labels=lablist, srt=30, pos=2, xpd=TRUE, cex = .7)
+# }
+# # getBar(studentorgs,"student orgs")
+# getBar(hs1$civicCourse %>% na.omit(),"civicCourse")
+#
+# getBar(hs$studentorgs %>% na.omit(),"studentOrg")
+# use ggplot for aggregate data
+# p = ggplot(df)
+# p = p +geom_bar(mapping = aes(x=choice, y = ct), stat = 'identity')
+# p
+#
+# df %>% gather(key = "activity", value = ct)
+# getbar(hs1$news_coverage %>% na.omit(),"newspaper coverage")
+
+# use base plot
+# lablist <- df1$choice
+# barplot(df1$ct,horiz= F,angle =60)
+# text(1:7, par("usr")[1], labels=lablist, srt=30, pos=2, xpd=TRUE, cex = .7)
+
+
+```
+
+### Student government voting categorization
+```{r}
+
+# hs$stugov_vote %>% table()
+hs$stugov_vote_categorized <- NA
+# very good: 95 +
+hs$stugov_vote_categorized[hs$stugov_vote >=95] <- "95+"
+# good : 90+
+hs$stugov_vote_categorized[hs$stugov_vote< 95 & hs$stugov_vote >=90 ] <- "90-95"
+# slightly good:85+
+hs$stugov_vote_categorized[hs$stugov_vote < 90 & hs$stugov_vote >=85] <- "85-89"
+# okay: 80+
+hs$stugov_vote_categorized[hs$stugov_vote < 85 & hs$stugov_vote >=80 ] <- "80-84"
+# improving: 75+
+hs$stugov_vote_categorized[hs$stugov_vote < 80 & hs$stugov_vote >=75 ] <- "75-79"
+# not good: <75
+hs$stugov_vote_categorized[hs$stugov_vote < 75 ] <- "<75"
+hs$stugov_vote_categorized[is.na(hs$stugov_vote)] <- "NA"
+
+hs$stugov_vote_categorized %>% table()
+```
+
+### all the one dim tables
+```{r}
+
+# # onetable = function(Q) {
+# #   x = table(Q[3:length(Q)],exclude = NULL, useNA = 'always') %>% prop.table() %>% round(2)
+# #   names(dimnames(x)) <- Q[[1]]
+# #   x
+# # }
+# 
+# # onetable = function(Q) {
+# #    x = table(Q[3:length(Q)],exclude = NULL, useNA = 'always') %>% prop.table() %>% round(2) 
+# #    countTable = table(Q[3:length(Q)],exclude = NULL, useNA = 'always')
+# #    names(dimnames(x)) <- Q[[1]]
+# #    print(x)
+# #    print(paste("total count =", margin.table(countTable)))
+# #    par(mar=c(7,4,4,0))
+# #    barplot(countTable, beside = TRUE, main = " ",  ylab = "Responses", cex.names=0.7 , xpd = FALSE, las=2, font.axis=2)
+# # }
+# 
+# 
+# #hs_labeled$parents_engaged<- hs_labeled$parents_engaged[-c(1,3)] 
+# #hs_labeled$parents_engaged[[1]] <- NA
+# 
+# Q1 = hs$stugov_vote_categorized
+# Q1 %>% onetable()
+# hs %>% names()
+# hs1 = hs[,c(22:39, 41, 43:46, 48:50, 52:56, 59, 63:64)]
+# # ones with lengthy or unnecessary responses: skill.develop_open,otheractivities, final_open, total duration
+# hs1 %>% names()
+# which(!hs1 %>% sapply(is.numeric)) # columns we take out
+# hs_numeric = hs1[,hs1 %>% sapply(is.numeric)]
+# sapply(hs1, onetable)
+# 
+# # ### For labeled ones 
+# # hs_labeled %>% names()
+# # hs1 = hs_labeled[,c(22:39, 41, 43;46, 48:50, 52:56, 59:60, 63:64)]
+# # # ones with lengthy or unnecessary responses: skill.develop_open,otheractivities, final_open, total duration
+# # hs1 %>% names()
+# # which(!hs1 %>% sapply(is.numeric)) # columns we take out
+# # # hs_numeric = hs1[,hs1 %>% sapply(is.numeric)]
+# # 
+# # sapply(hs1, onetable)
+# 
+
+```
+
+ 
+### Frequency table visualization
+```{r}
+# #How to make a function for barplot so I can just put variables and it will give me plot?
+# 
+# counts <- table(hs$stugov_vote_categorized)
+# counts %>% View()
+# barplot(counts, main="Student goverment voting %", 
+#   	xlab="Voting percentage")
+# 
+# #variables worth making visualization 
+# myvars <- hs[, c(hs$regdrives, hs$regdrives_org, hs$mock , hs$accommodations, hs$award, hs$courses, hs$service, hs$volunteer, hs$reg_parents, hs$newspaper)]
+# 
+# hs_select = hs %>% select(regdrives,regdrives_org,mock)
+# hs_barplot_list <- hs_labeled[myvars]
+# 
+# sapply(sapply(hs_select, table),barplot) # need to make variable to frequency table first. 
+
+```
+
+
+###CrossTab
+```{r, echo =F, results='markup'}
+ct1 = function(x, y, xname = "X", yname = "Y", plot = F){
+  kable(crosstab(x, y,
+           dnn = c(xname, yname),
+           prop.r = TRUE,
+           plot = plot, digits = 0))
+}
+
+#related to school 
+#regdrive
+ct1(hs$public, hs$regdrives, xname= 'school', yname= 'regDrive', plot = F)
+
+#civic course
+ct1(hs$public, hs$courses, xname= 'school', yname= 'civic course yes or no', plot = F)
+
+#newspaper
+ct1(hs$public, hs$newspaper, xname= 'school', yname= 'newspaper exist', plot = F)
+
+#parents engagement : are we going code the variables? now has four but that would not mean that much 
+ct1(hs$public, hs$parents_engaged, xname= 'school', yname= 'parents engage', plot = F)
+
+#stu gov participation rate
+# ct1(hs$public, hs$stugov_vote_categorized, xname= 'school', yname= 'student vote', plot = F)
+
+#engagement freq 
+#engagement_total <- gather(hs, "engage_total", hs$engage_grid_1:hs$engage_grid_3, na.rm = TRUE)
+#we might have to ask if we could place value on answer for engage_grid 1,2,3
+
+#skill develop 
+ct1(hs$public,hs$skilldevleop, xname= 'school', yname= 'skill develop', plot = F)
+
+# #related to student gov voting rate (but will have to ask for permission to code the variables)
+
+ct1(hs$stugov_vote_categorized, hs$regdrives, xname= 'stugov voting', yname= 'regrdrive', plot = F)
+ct1(hs$stugov_vote_categorized, hs$parents_engaged, xname= 'stugov voting', yname= 'parents engage', plot = F)
+ct1(hs$stugov_vote_categorized, hs$newspaper, xname= 'stugov voting', yname= 'newspaper', plot = F)
+ct1(hs$stugov_vote_categorized, hs$courses, xname= 'stugov voting', yname= 'civic courses yes or no', plot = F)
+
+#engagement grid vs stu gov vote : no difference
+ct1(hs$engage_grid_1,hs$stugov_vote_categorized, xname= 'Elected officials spoke at the school', yname= 'stugov voting', plot = F)
+ct1(hs$engage_grid_2,hs$stugov_vote_categorized, xname= 'Students wrote to elected officials', yname= 'stugov voting', plot = F)
+ct1(hs$engage_grid_3,hs$stugov_vote_categorized, xname= 'Students discussed (during class) actions taken by elected officials', yname= 'stugov voting', plot = F)
+
+# public vs engagement : not too much difference
+ct1(hs$public, hs$engage_grid_1,  yname= 'Elected officials spoke at the school', xname= 'SchoolType', plot = F)
+ct1(hs$public, hs$engage_grid_2,  yname= 'Students wrote to elected officials', xname= 'SchoolType', plot = F)
+ct1(hs$public, hs$engage_grid_3 , yname= 'Students discussed (during class) actions taken by elected officials', xname= 'SchoolType', plot = F)
+
+```
+
+
+
+
+
+
+
+
+
