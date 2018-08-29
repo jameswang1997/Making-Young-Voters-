@@ -1,4 +1,8 @@
-﻿For 2018-2019 Data team
+### Making Young Voters
+
+To Learn More: Visit https://www.jamescwang.com/posts/vote
+
+For 2018-2019 Data team
 
 We have put all our codescripts in the rmd file and all data sets in the all_data_set file. 
 Latex file is just for the pdf and latex. 
